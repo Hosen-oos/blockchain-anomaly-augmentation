@@ -1,0 +1,15 @@
+﻿.venv/
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+.env
+.DS_Store
+# Local/raw data files
+data/*.csv
+data/*.jsonl
+data/*.parquet
+# Large generated artifacts
+*.pt
+*.pth
+*.ckpt

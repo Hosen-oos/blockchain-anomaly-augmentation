@@ -1,0 +1,1671 @@
+{
+  "purpose": "test whether augmentation compensates for scarce labeled training graphs",
+  "window": "window_2_low_data",
+  "full_split": {
+    "train": {
+      "n": 3460,
+      "positive": 1771,
+      "positive_rate": 0.511849710982659
+    },
+    "valid": {
+      "n": 1038,
+      "positive": 771,
+      "positive_rate": 0.7427745664739884
+    },
+    "test": {
+      "n": 1038,
+      "positive": 62,
+      "positive_rate": 0.05973025048169557
+    }
+  },
+  "runs": [
+    {
+      "fraction": 0.1,
+      "train": {
+        "n": 346,
+        "positive": 177,
+        "positive_rate": 0.5115606936416185
+      },
+      "setting": "none",
+      "model": "sage",
+      "candidate_summary": {
+        "phishing_train": 177,
+        "candidates": 354,
+        "accepted": 74,
+        "acceptance_rate": 0.20903954802259886,
+        "behavior_rejected": 280
+      },
+      "training_n": 346,
+      "training_positive": 177,
+      "result": {
+        "kind": "sage",
+        "epochs_ran": 3,
+        "best_valid_pr_auc": 0.98791978722884,
+        "valid": {
+          "n": 1038,
+          "positive": 771,
+          "positive_rate": 0.7427745664739884,
+          "threshold": 0.5,
+          "roc_auc": 0.9585148914051989,
+          "pr_auc": 0.98791978722884,
+          "precision": 0.9983974358974359,
+          "recall": 0.808041504539559,
+          "f1": 0.8931899641577061,
+          "recall_at_fpr_1pct": 0.8210116731517509,
+          "recall_at_fpr_5pct": 0.9273670557717251
+        },
+        "test": {
+          "n": 1038,
+          "positive": 62,
+          "positive_rate": 0.05973025048169557,
+          "threshold": 0.5,
+          "roc_auc": 0.27976269169751455,
+          "pr_auc": 0.10259096851365015,
+          "precision": 0.029411764705882353,
+          "recall": 0.11290322580645161,
+          "f1": 0.04666666666666667,
+          "recall_at_fpr_1pct": 0.06451612903225806,
+          "recall_at_fpr_5pct": 0.06451612903225806
+        },
+        "history": [
+          {
+            "epoch": 1,
+            "loss": 0.8948805951795977,
+            "valid": {
+              "n": 1038,
+              "positive": 771,
+              "positive_rate": 0.7427745664739884,
+              "threshold": 0.5,
+              "roc_auc": 0.8270984226914799,
+              "pr_auc": 0.9237566598150097,
+              "precision": 0.8979591836734694,
+              "recall": 0.5706874189364461,
+              "f1": 0.6978588421887391,
+              "recall_at_fpr_1pct": 0.0933852140077821,
+              "recall_at_fpr_5pct": 0.3942931258106355
+            }
+          },
+          {
+            "epoch": 2,
+            "loss": 0.9354809782840581,
+            "valid": {
+              "n": 1038,
+              "positive": 771,
+              "positive_rate": 0.7427745664739884,
+              "threshold": 0.5,
+              "roc_auc": 0.8551373040508703,
+              "pr_auc": 0.948746277877454,
+              "precision": 0.907563025210084,
+              "recall": 0.5603112840466926,
+              "f1": 0.6928628708901363,
+              "recall_at_fpr_1pct": 0.5525291828793775,
+              "recall_at_fpr_5pct": 0.5538261997405967
+            }
+          },
+          {
+            "epoch": 3,
+            "loss": 0.6690650337989404,
+            "valid": {
+              "n": 1038,
+              "positive": 771,
+              "positive_rate": 0.7427745664739884,
+              "threshold": 0.5,
+              "roc_auc": 0.9585148914051989,
+              "pr_auc": 0.98791978722884,
+              "precision": 0.9983974358974359,
+              "recall": 0.808041504539559,
+              "f1": 0.8931899641577061,
+              "recall_at_fpr_1pct": 0.8210116731517509,
+              "recall_at_fpr_5pct": 0.9273670557717251
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fraction": 0.1,
+      "train": {
+        "n": 346,
+        "positive": 177,
+        "positive_rate": 0.5115606936416185
+      },
+      "setting": "full",
+      "model": "sage",
+      "candidate_summary": {
+        "phishing_train": 177,
+        "candidates": 354,
+        "accepted": 74,
+        "acceptance_rate": 0.20903954802259886,
+        "behavior_rejected": 280
+      },
+      "training_n": 420,
+      "training_positive": 251,
+      "result": {
+        "kind": "sage",
+        "epochs_ran": 3,
+        "best_valid_pr_auc": 0.9575406133518417,
+        "valid": {
+          "n": 1038,
+          "positive": 771,
+          "positive_rate": 0.7427745664739884,
+          "threshold": 0.5,
+          "roc_auc": 0.923459003094381,
+          "pr_auc": 0.9575406133518417,
+          "precision": 0.9861751152073732,
+          "recall": 0.8326848249027238,
+          "f1": 0.9029535864978903,
+          "recall_at_fpr_1pct": 0.0,
+          "recall_at_fpr_5pct": 0.8430609597924773
+        },
+        "test": {
+          "n": 1038,
+          "positive": 62,
+          "positive_rate": 0.05973025048169557,
+          "threshold": 0.5,
+          "roc_auc": 0.2733011634056055,
+          "pr_auc": 0.07747868054226811,
+          "precision": 0.03529411764705882,
+          "recall": 0.14516129032258066,
+          "f1": 0.056782334384858045,
+          "recall_at_fpr_1pct": 0.0,
+          "recall_at_fpr_5pct": 0.14516129032258066
+        },
+        "history": [
+          {
+            "epoch": 1,
+            "loss": 0.7158409014378238,
+            "valid": {
+              "n": 1038,
+              "positive": 771,
+              "positive_rate": 0.7427745664739884,
+              "threshold": 0.5,
+              "roc_auc": 0.8441636670115662,
+              "pr_auc": 0.9165288181366562,
+              "precision": 0.898635477582846,
+              "recall": 0.5979247730220493,
+              "f1": 0.7180685358255452,
+              "recall_at_fpr_1pct": 0.0,
+              "recall_at_fpr_5pct": 0.5966277561608301
+            }
+          },
+          {
+            "epoch": 2,
+            "loss": 0.591830665675183,
+            "valid": {
+              "n": 1038,
+              "positive": 771,
+              "positive_rate": 0.7427745664739884,
+              "threshold": 0.5,
+              "roc_auc": 0.923459003094381,
+              "pr_auc": 0.9575406133518417,
+              "precision": 0.9861751152073732,
+              "recall": 0.8326848249027238,
+              "f1": 0.9029535864978903,
+              "recall_at_fpr_1pct": 0.0,
+              "recall_at_fpr_5pct": 0.8430609597924773
+            }
+          },
+          {
+            "epoch": 3,
+            "loss": 0.9113556845188457,
+            "valid": {
+              "n": 1038,
+              "positive": 771,
+              "positive_rate": 0.7427745664739884,
+              "threshold": 0.5,
+              "roc_auc": 0.8070092345657423,
+              "pr_auc": 0.8344740342275989,
+              "precision": 0.9165562913907285,
+              "recall": 0.8975356679636836,
+              "f1": 0.9069462647444299,
+              "recall_at_fpr_1pct": 0.0,
+              "recall_at_fpr_5pct": 0.0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fraction": 0.1,
+      "train": {
+        "n": 346,
+        "positive": 177,
+        "positive_rate": 0.5115606936416185
+      },
+      "setting": "none",
+      "model": "gat",
+      "candidate_summary": {
+        "phishing_train": 177,
+        "candidates": 354,
+        "accepted": 74,
+        "acceptance_rate": 0.20903954802259886,
+        "behavior_rejected": 280
+      },
+      "training_n": 346,
+      "training_positive": 177,
+      "result": {
+        "kind": "gat",
+        "epochs_ran": 3,
+        "best_valid_pr_auc": 0.9486255651192529,
+        "valid": {
+          "n": 1038,
+          "positive": 771,
+          "positive_rate": 0.7427745664739884,
+          "threshold": 0.5,
+          "roc_auc": 0.852164366526278,
+          "pr_auc": 0.9486255651192529,
+          "precision": 0.997624703087886,
+          "recall": 0.5447470817120622,
+          "f1": 0.7046979865771812,
+          "recall_at_fpr_1pct": 0.5460440985732814,
+          "recall_at_fpr_5pct": 0.5460440985732814
+        },
+        "test": {
+          "n": 1038,
+          "positive": 62,
+          "positive_rate": 0.05973025048169557,
+          "threshold": 0.5,
+          "roc_auc": 0.23121033844526706,
+          "pr_auc": 0.11490634614127455,
+          "precision": 0.06666666666666667,
+          "recall": 0.12903225806451613,
+          "f1": 0.08791208791208792,
+          "recall_at_fpr_1pct": 0.08064516129032258,
+          "recall_at_fpr_5pct": 0.08064516129032258
+        },
+        "history": [
+          {
+            "epoch": 1,
+            "loss": 1.147919992771608,
+            "valid": {
+              "n": 1038,
+              "positive": 771,
+              "positive_rate": 0.7427745664739884,
+              "threshold": 0.5,
+              "roc_auc": 0.831416954487824,
+              "pr_auc": 0.9373969088216273,
+              "precision": 0.895397489539749,
+              "recall": 0.5551232166018158,
+              "f1": 0.6853482786228983,
+              "recall_at_fpr_1pct": 0.3398184176394293,
+              "recall_at_fpr_5pct": 0.5214007782101168
+            }
+          },
+          {
+            "epoch": 2,
+            "loss": 0.8918509423320754,
+            "valid": {
+              "n": 1038,
+              "positive": 771,
+              "positive_rate": 0.7427745664739884,
+              "threshold": 0.5,
+              "roc_auc": 0.852164366526278,
+              "pr_auc": 0.9486255651192529,
+              "precision": 0.997624703087886,
+              "recall": 0.5447470817120622,
+              "f1": 0.7046979865771812,
+              "recall_at_fpr_1pct": 0.5460440985732814,
+              "recall_at_fpr_5pct": 0.5460440985732814
+            }
+          },
+          {
+            "epoch": 3,
+            "loss": 0.8217930355750659,
+            "valid": {
+              "n": 1038,
+              "positive": 771,
+              "positive_rate": 0.7427745664739884,
+              "threshold": 0.5,
+              "roc_auc": 0.9106952884769526,
+              "pr_auc": 0.9207571347370843,
+              "precision": 0.956268221574344,
+              "recall": 0.8508430609597925,
+              "f1": 0.9004804392587509,
+              "recall_at_fpr_1pct": 0.0,
+              "recall_at_fpr_5pct": 0.5512321660181583
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fraction": 0.1,
+      "train": {
+        "n": 346,
+        "positive": 177,
+        "positive_rate": 0.5115606936416185
+      },
+      "setting": "full",
+      "model": "gat",
+      "candidate_summary": {
+        "phishing_train": 177,
+        "candidates": 354,
+        "accepted": 74,
+        "acceptance_rate": 0.20903954802259886,
+        "behavior_rejected": 280
+      },
+      "training_n": 420,
+      "training_positive": 251,
+      "result": {
+        "kind": "gat",
+        "epochs_ran": 3,
+        "best_valid_pr_auc": 0.9600047476327795,
+        "valid": {
+          "n": 1038,
+          "positive": 771,
+          "positive_rate": 0.7427745664739884,
+          "threshold": 0.5,
+          "roc_auc": 0.9186012620411256,
+          "pr_auc": 0.9600047476327795,
+          "precision": 0.9875776397515528,
+          "recall": 0.8249027237354085,
+          "f1": 0.8989399293286219,
+          "recall_at_fpr_1pct": 0.0,
+          "recall_at_fpr_5pct": 0.8326848249027238
+        },
+        "test": {
+          "n": 1038,
+          "positive": 62,
+          "positive_rate": 0.05973025048169557,
+          "threshold": 0.5,
+          "roc_auc": 0.26712057112638815,
+          "pr_auc": 0.07630661923316275,
+          "precision": 0.038314176245210725,
+          "recall": 0.16129032258064516,
+          "f1": 0.06191950464396285,
+          "recall_at_fpr_1pct": 0.0,
+          "recall_at_fpr_5pct": 0.14516129032258066
+        },
+        "history": [
+          {
+            "epoch": 1,
+            "loss": 0.9785178994928764,
+            "valid": {
+              "n": 1038,
+              "positive": 771,
+              "positive_rate": 0.7427745664739884,
+              "threshold": 0.5,
+              "roc_auc": 0.8288617826938118,
+              "pr_auc": 0.9117187898969262,
+              "precision": 0.884393063583815,
+              "recall": 0.5953307392996109,
+              "f1": 0.7116279069767442,
+              "recall_at_fpr_1pct": 0.0,
+              "recall_at_fpr_5pct": 0.5927367055771725
+            }
+          },
+          {
+            "epoch": 2,
+            "loss": 0.7571650138580385,
+            "valid": {
+              "n": 1038,
+              "positive": 771,
+              "positive_rate": 0.7427745664739884,
+              "threshold": 0.5,
+              "roc_auc": 0.9186012620411256,
+              "pr_auc": 0.9600047476327795,
+              "precision": 0.9875776397515528,
+              "recall": 0.8249027237354085,
+              "f1": 0.8989399293286219,
+              "recall_at_fpr_1pct": 0.0,
+              "recall_at_fpr_5pct": 0.8326848249027238
+            }
+          },
+          {
+            "epoch": 3,
+            "loss": 0.7841982907071045,
+            "valid": {
+              "n": 1038,
+              "positive": 771,
+              "positive_rate": 0.7427745664739884,
+              "threshold": 0.5,
+              "roc_auc": 0.8097587160018848,
+              "pr_auc": 0.841606189397675,
+              "precision": 0.9228723404255319,
+              "recall": 0.9001297016861219,
+              "f1": 0.9113591595535128,
+              "recall_at_fpr_1pct": 0.0,
+              "recall_at_fpr_5pct": 0.0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fraction": 0.25,
+      "train": {
+        "n": 865,
+        "positive": 443,
+        "positive_rate": 0.5121387283236994
+      },
+      "setting": "none",
+      "model": "sage",
+      "candidate_summary": {
+        "phishing_train": 443,
+        "candidates": 886,
+        "accepted": 191,
+        "acceptance_rate": 0.21557562076749437,
+        "behavior_rejected": 691
+      },
+      "training_n": 865,
+      "training_positive": 443,
+      "result": {
+        "kind": "sage",
+        "epochs_ran": 3,
+        "best_valid_pr_auc": 0.9881365275424179,
+        "valid": {
+          "n": 1038,
+          "positive": 771,
+          "positive_rate": 0.7427745664739884,
+          "threshold": 0.5,
+          "roc_auc": 0.9594864396158498,
+          "pr_auc": 0.9881365275424179,
+          "precision": 1.0,
+          "recall": 0.8352788586251622,
+          "f1": 0.9102473498233216,
+          "recall_at_fpr_1pct": 0.8599221789883269,
+          "recall_at_fpr_5pct": 0.8728923476005188
+        },
+        "test": {
+          "n": 1038,
+          "positive": 62,
+          "positive_rate": 0.05973025048169557,
+          "threshold": 0.5,
+          "roc_auc": 0.2979904812268641,
+          "pr_auc": 0.11892732908287937,
+          "precision": 0.0673076923076923,
+          "recall": 0.11290322580645161,
+          "f1": 0.08433734939759036,
+          "recall_at_fpr_1pct": 0.08064516129032258,
+          "recall_at_fpr_5pct": 0.08064516129032258
+        },
+        "history": [
+          {
+            "epoch": 1,
+            "loss": 0.9687976467391041,
+            "valid": {
+              "n": 1038,
+              "positive": 771,
+              "positive_rate": 0.7427745664739884,
+              "threshold": 0.5,
+              "roc_auc": 0.8934503077378958,
+              "pr_auc": 0.967924624066637,
+              "precision": 0.9983525535420099,
+              "recall": 0.7859922178988327,
+              "f1": 0.8795355587808418,
+              "recall_at_fpr_1pct": 0.8093385214007782,
+              "recall_at_fpr_5pct": 0.8132295719844358
+            }
+          },
+          {
+            "epoch": 2,
+            "loss": 0.7719014482591516,
+            "valid": {
+              "n": 1038,
+              "positive": 771,
+              "positive_rate": 0.7427745664739884,
+              "threshold": 0.5,
+              "roc_auc": 0.8267486653356456,
+              "pr_auc": 0.8533526804022432,
+              "precision": 0.9256308100929614,
+              "recall": 0.9040207522697795,
+              "f1": 0.9146981627296588,
+              "recall_at_fpr_1pct": 0.0,
+              "recall_at_fpr_5pct": 0.0
+            }
+          },
+          {
+            "epoch": 3,
+            "loss": 0.5547118353482728,
+            "valid": {
+              "n": 1038,
+              "positive": 771,
+              "positive_rate": 0.7427745664739884,
+              "threshold": 0.5,
+              "roc_auc": 0.9594864396158498,
+              "pr_auc": 0.9881365275424179,
+              "precision": 1.0,
+              "recall": 0.8352788586251622,
+              "f1": 0.9102473498233216,
+              "recall_at_fpr_1pct": 0.8599221789883269,
+              "recall_at_fpr_5pct": 0.8728923476005188
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fraction": 0.25,
+      "train": {
+        "n": 865,
+        "positive": 443,
+        "positive_rate": 0.5121387283236994
+      },
+      "setting": "full",
+      "model": "sage",
+      "candidate_summary": {
+        "phishing_train": 443,
+        "candidates": 886,
+        "accepted": 191,
+        "acceptance_rate": 0.21557562076749437,
+        "behavior_rejected": 691
+      },
+      "training_n": 1056,
+      "training_positive": 634,
+      "result": {
+        "kind": "sage",
+        "epochs_ran": 3,
+        "best_valid_pr_auc": 0.9697650743096976,
+        "valid": {
+          "n": 1038,
+          "positive": 771,
+          "positive_rate": 0.7427745664739884,
+          "threshold": 0.5,
+          "roc_auc": 0.9327129998008327,
+          "pr_auc": 0.9697650743096976,
+          "precision": 0.995334370139969,
+          "recall": 0.8300907911802854,
+          "f1": 0.9052333804809052,
+          "recall_at_fpr_1pct": 0.0,
+          "recall_at_fpr_5pct": 0.8560311284046692
+        },
+        "test": {
+          "n": 1038,
+          "positive": 62,
+          "positive_rate": 0.05973025048169557,
+          "threshold": 0.5,
+          "roc_auc": 0.26865745637228977,
+          "pr_auc": 0.0852371914644271,
+          "precision": 0.06896551724137931,
+          "recall": 0.12903225806451613,
+          "f1": 0.0898876404494382,
+          "recall_at_fpr_1pct": 0.06451612903225806,
+          "recall_at_fpr_5pct": 0.12903225806451613
+        },
+        "history": [
+          {
+            "epoch": 1,
+            "loss": 0.670867253846984,
+            "valid": {
+              "n": 1038,
+              "positive": 771,
+              "positive_rate": 0.7427745664739884,
+              "threshold": 0.5,
+              "roc_auc": 0.8699436987811927,
+              "pr_auc": 0.9517963886815533,
+              "precision": 0.8955823293172691,
+              "recall": 0.5784695201037614,
+              "f1": 0.7029156816390859,
+              "recall_at_fpr_1pct": 0.5460440985732814,
+              "recall_at_fpr_5pct": 0.5486381322957199
+            }
+          },
+          {
+            "epoch": 2,
+            "loss": 0.39439879524646954,
+            "valid": {
+              "n": 1038,
+              "positive": 771,
+              "positive_rate": 0.7427745664739884,
+              "threshold": 0.5,
+              "roc_auc": 0.9327129998008327,
+              "pr_auc": 0.9697650743096976,
+              "precision": 0.995334370139969,
+              "recall": 0.8300907911802854,
+              "f1": 0.9052333804809052,
+              "recall_at_fpr_1pct": 0.0,
+              "recall_at_fpr_5pct": 0.8560311284046692
+            }
+          },
+          {
+            "epoch": 3,
+            "loss": 0.7006626954814914,
+            "valid": {
+              "n": 1038,
+              "positive": 771,
+              "positive_rate": 0.7427745664739884,
+              "threshold": 0.5,
+              "roc_auc": 0.8563541681847108,
+              "pr_auc": 0.9033084497425579,
+              "precision": 0.9467213114754098,
+              "recall": 0.8988326848249028,
+              "f1": 0.9221556886227545,
+              "recall_at_fpr_1pct": 0.0,
+              "recall_at_fpr_5pct": 0.0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fraction": 0.25,
+      "train": {
+        "n": 865,
+        "positive": 443,
+        "positive_rate": 0.5121387283236994
+      },
+      "setting": "none",
+      "model": "gat",
+      "candidate_summary": {
+        "phishing_train": 443,
+        "candidates": 886,
+        "accepted": 191,
+        "acceptance_rate": 0.21557562076749437,
+        "behavior_rejected": 691
+      },
+      "training_n": 865,
+      "training_positive": 443,
+      "result": {
+        "kind": "gat",
+        "epochs_ran": 3,
+        "best_valid_pr_auc": 0.9901493387487047,
+        "valid": {
+          "n": 1038,
+          "positive": 771,
+          "positive_rate": 0.7427745664739884,
+          "threshold": 0.5,
+          "roc_auc": 0.9657140636461233,
+          "pr_auc": 0.9901493387487047,
+          "precision": 1.0,
+          "recall": 0.6562905317769131,
+          "f1": 0.7924823805794832,
+          "recall_at_fpr_1pct": 0.8612191958495461,
+          "recall_at_fpr_5pct": 0.9040207522697795
+        },
+        "test": {
+          "n": 1038,
+          "positive": 62,
+          "positive_rate": 0.05973025048169557,
+          "threshold": 0.5,
+          "roc_auc": 0.3062533051295611,
+          "pr_auc": 0.13669452988051717,
+          "precision": 0.7142857142857143,
+          "recall": 0.08064516129032258,
+          "f1": 0.14492753623188406,
+          "recall_at_fpr_1pct": 0.0967741935483871,
+          "recall_at_fpr_5pct": 0.12903225806451613
+        },
+        "history": [
+          {
+            "epoch": 1,
+            "loss": 1.0824104573500026,
+            "valid": {
+              "n": 1038,
+              "positive": 771,
+              "positive_rate": 0.7427745664739884,
+              "threshold": 0.5,
+              "roc_auc": 0.8526112787031773,
+              "pr_auc": 0.9476304898305412,
+              "precision": 0.9004149377593361,
+              "recall": 0.562905317769131,
+              "f1": 0.6927374301675978,
+              "recall_at_fpr_1pct": 0.5486381322957199,
+              "recall_at_fpr_5pct": 0.5525291828793775
+            }
+          },
+          {
+            "epoch": 2,
+            "loss": 0.8200546162481028,
+            "valid": {
+              "n": 1038,
+              "positive": 771,
+              "positive_rate": 0.7427745664739884,
+              "threshold": 0.5,
+              "roc_auc": 0.9070568404280641,
+              "pr_auc": 0.9408923268751872,
+              "precision": 0.9633802816901409,
+              "recall": 0.8871595330739299,
+              "f1": 0.9237002025658338,
+              "recall_at_fpr_1pct": 0.0012970168612191958,
+              "recall_at_fpr_5pct": 0.6679636835278858
+            }
+          },
+          {
+            "epoch": 3,
+            "loss": 0.6662042629050919,
+            "valid": {
+              "n": 1038,
+              "positive": 771,
+              "positive_rate": 0.7427745664739884,
+              "threshold": 0.5,
+              "roc_auc": 0.9657140636461233,
+              "pr_auc": 0.9901493387487047,
+              "precision": 1.0,
+              "recall": 0.6562905317769131,
+              "f1": 0.7924823805794832,
+              "recall_at_fpr_1pct": 0.8612191958495461,
+              "recall_at_fpr_5pct": 0.9040207522697795
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fraction": 0.25,
+      "train": {
+        "n": 865,
+        "positive": 443,
+        "positive_rate": 0.5121387283236994
+      },
+      "setting": "full",
+      "model": "gat",
+      "candidate_summary": {
+        "phishing_train": 443,
+        "candidates": 886,
+        "accepted": 191,
+        "acceptance_rate": 0.21557562076749437,
+        "behavior_rejected": 691
+      },
+      "training_n": 1056,
+      "training_positive": 634,
+      "result": {
+        "kind": "gat",
+        "epochs_ran": 3,
+        "best_valid_pr_auc": 0.9837798177204446,
+        "valid": {
+          "n": 1038,
+          "positive": 771,
+          "positive_rate": 0.7427745664739884,
+          "threshold": 0.5,
+          "roc_auc": 0.9586824834715361,
+          "pr_auc": 0.9837798177204446,
+          "precision": 0.9955555555555555,
+          "recall": 0.8715953307392996,
+          "f1": 0.9294605809128631,
+          "recall_at_fpr_1pct": 0.695201037613489,
+          "recall_at_fpr_5pct": 0.8884565499351491
+        },
+        "test": {
+          "n": 1038,
+          "positive": 62,
+          "positive_rate": 0.05973025048169557,
+          "threshold": 0.5,
+          "roc_auc": 0.4969097038603914,
+          "pr_auc": 0.20991323076806434,
+          "precision": 0.14754098360655737,
+          "recall": 0.2903225806451613,
+          "f1": 0.1956521739130435,
+          "recall_at_fpr_1pct": 0.20967741935483872,
+          "recall_at_fpr_5pct": 0.24193548387096775
+        },
+        "history": [
+          {
+            "epoch": 1,
+            "loss": 0.9377414993832633,
+            "valid": {
+              "n": 1038,
+              "positive": 771,
+              "positive_rate": 0.7427745664739884,
+              "threshold": 0.5,
+              "roc_auc": 0.9427563794284384,
+              "pr_auc": 0.9821331228537891,
+              "precision": 0.9979508196721312,
+              "recall": 0.6316472114137484,
+              "f1": 0.7736298649722002,
+              "recall_at_fpr_1pct": 0.8508430609597925,
+              "recall_at_fpr_5pct": 0.8599221789883269
+            }
+          },
+          {
+            "epoch": 2,
+            "loss": 0.46828379337072173,
+            "valid": {
+              "n": 1038,
+              "positive": 771,
+              "positive_rate": 0.7427745664739884,
+              "threshold": 0.5,
+              "roc_auc": 0.9186959879916641,
+              "pr_auc": 0.9590913868326759,
+              "precision": 0.9953051643192489,
+              "recall": 0.8249027237354085,
+              "f1": 0.902127659574468,
+              "recall_at_fpr_1pct": 0.0,
+              "recall_at_fpr_5pct": 0.8443579766536965
+            }
+          },
+          {
+            "epoch": 3,
+            "loss": 0.6350123532057399,
+            "valid": {
+              "n": 1038,
+              "positive": 771,
+              "positive_rate": 0.7427745664739884,
+              "threshold": 0.5,
+              "roc_auc": 0.9586824834715361,
+              "pr_auc": 0.9837798177204446,
+              "precision": 0.9955555555555555,
+              "recall": 0.8715953307392996,
+              "f1": 0.9294605809128631,
+              "recall_at_fpr_1pct": 0.695201037613489,
+              "recall_at_fpr_5pct": 0.8884565499351491
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fraction": 0.5,
+      "train": {
+        "n": 1730,
+        "positive": 886,
+        "positive_rate": 0.5121387283236994
+      },
+      "setting": "none",
+      "model": "sage",
+      "candidate_summary": {
+        "phishing_train": 886,
+        "candidates": 1772,
+        "accepted": 352,
+        "acceptance_rate": 0.1986455981941309,
+        "behavior_rejected": 1410
+      },
+      "training_n": 1730,
+      "training_positive": 886,
+      "result": {
+        "kind": "sage",
+        "epochs_ran": 3,
+        "best_valid_pr_auc": 0.9822151610592749,
+        "valid": {
+          "n": 1038,
+          "positive": 771,
+          "positive_rate": 0.7427745664739884,
+          "threshold": 0.5,
+          "roc_auc": 0.953756734043535,
+          "pr_auc": 0.9822151610592749,
+          "precision": 1.0,
+          "recall": 0.8612191958495461,
+          "f1": 0.9254355400696864,
+          "recall_at_fpr_1pct": 0.8767833981841764,
+          "recall_at_fpr_5pct": 0.8845654993514915
+        },
+        "test": {
+          "n": 1038,
+          "positive": 62,
+          "positive_rate": 0.05973025048169557,
+          "threshold": 0.5,
+          "roc_auc": 0.3516988365943945,
+          "pr_auc": 0.1611651150708473,
+          "precision": 0.102803738317757,
+          "recall": 0.1774193548387097,
+          "f1": 0.1301775147928994,
+          "recall_at_fpr_1pct": 0.12903225806451613,
+          "recall_at_fpr_5pct": 0.12903225806451613
+        },
+        "history": [
+          {
+            "epoch": 1,
+            "loss": 0.8816695798114427,
+            "valid": {
+              "n": 1038,
+              "positive": 771,
+              "positive_rate": 0.7427745664739884,
+              "threshold": 0.5,
+              "roc_auc": 0.7716278776043564,
+              "pr_auc": 0.819278677546651,
+              "precision": 0.9051948051948052,
+              "recall": 0.9040207522697795,
+              "f1": 0.9046073977936405,
+              "recall_at_fpr_1pct": 0.0,
+              "recall_at_fpr_5pct": 0.0
+            }
+          },
+          {
+            "epoch": 2,
+            "loss": 0.7330017471923791,
+            "valid": {
+              "n": 1038,
+              "positive": 771,
+              "positive_rate": 0.7427745664739884,
+              "threshold": 0.5,
+              "roc_auc": 0.953756734043535,
+              "pr_auc": 0.9822151610592749,
+              "precision": 1.0,
+              "recall": 0.8612191958495461,
+              "f1": 0.9254355400696864,
+              "recall_at_fpr_1pct": 0.8767833981841764,
+              "recall_at_fpr_5pct": 0.8845654993514915
+            }
+          },
+          {
+            "epoch": 3,
+            "loss": 0.7362687548741051,
+            "valid": {
+              "n": 1038,
+              "positive": 771,
+              "positive_rate": 0.7427745664739884,
+              "threshold": 0.5,
+              "roc_auc": 0.9529892109571207,
+              "pr_auc": 0.9818785691159893,
+              "precision": 1.0,
+              "recall": 0.8443579766536965,
+              "f1": 0.9156118143459916,
+              "recall_at_fpr_1pct": 0.8651102464332037,
+              "recall_at_fpr_5pct": 0.8780804150453956
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fraction": 0.5,
+      "train": {
+        "n": 1730,
+        "positive": 886,
+        "positive_rate": 0.5121387283236994
+      },
+      "setting": "full",
+      "model": "sage",
+      "candidate_summary": {
+        "phishing_train": 886,
+        "candidates": 1772,
+        "accepted": 352,
+        "acceptance_rate": 0.1986455981941309,
+        "behavior_rejected": 1410
+      },
+      "training_n": 2082,
+      "training_positive": 1238,
+      "result": {
+        "kind": "sage",
+        "epochs_ran": 3,
+        "best_valid_pr_auc": 0.9734317704671668,
+        "valid": {
+          "n": 1038,
+          "positive": 771,
+          "positive_rate": 0.7427745664739884,
+          "threshold": 0.5,
+          "roc_auc": 0.9285887776466187,
+          "pr_auc": 0.9734317704671668,
+          "precision": 1.0,
+          "recall": 0.6523994811932555,
+          "f1": 0.7896389324960753,
+          "recall_at_fpr_1pct": 0.8495460440985733,
+          "recall_at_fpr_5pct": 0.8560311284046692
+        },
+        "test": {
+          "n": 1038,
+          "positive": 62,
+          "positive_rate": 0.05973025048169557,
+          "threshold": 0.5,
+          "roc_auc": 0.276994645690111,
+          "pr_auc": 0.13670747981550754,
+          "precision": 0.7777777777777778,
+          "recall": 0.11290322580645161,
+          "f1": 0.19718309859154928,
+          "recall_at_fpr_1pct": 0.12903225806451613,
+          "recall_at_fpr_5pct": 0.12903225806451613
+        },
+        "history": [
+          {
+            "epoch": 1,
+            "loss": 0.7272219861099599,
+            "valid": {
+              "n": 1038,
+              "positive": 771,
+              "positive_rate": 0.7427745664739884,
+              "threshold": 0.5,
+              "roc_auc": 0.8292479731075454,
+              "pr_auc": 0.8687654441646488,
+              "precision": 0.934228187919463,
+              "recall": 0.9027237354085603,
+              "f1": 0.9182058047493403,
+              "recall_at_fpr_1pct": 0.0,
+              "recall_at_fpr_5pct": 0.0
+            }
+          },
+          {
+            "epoch": 2,
+            "loss": 0.7207995917065558,
+            "valid": {
+              "n": 1038,
+              "positive": 771,
+              "positive_rate": 0.7427745664739884,
+              "threshold": 0.5,
+              "roc_auc": 0.9285887776466187,
+              "pr_auc": 0.9734317704671668,
+              "precision": 1.0,
+              "recall": 0.6523994811932555,
+              "f1": 0.7896389324960753,
+              "recall_at_fpr_1pct": 0.8495460440985733,
+              "recall_at_fpr_5pct": 0.8560311284046692
+            }
+          },
+          {
+            "epoch": 3,
+            "loss": 0.5370355676776046,
+            "valid": {
+              "n": 1038,
+              "positive": 771,
+              "positive_rate": 0.7427745664739884,
+              "threshold": 0.5,
+              "roc_auc": 0.8551105864750773,
+              "pr_auc": 0.8926629292268612,
+              "precision": 0.9352159468438538,
+              "recall": 0.7302204928664072,
+              "f1": 0.8201019664967225,
+              "recall_at_fpr_1pct": 0.0,
+              "recall_at_fpr_5pct": 0.0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fraction": 0.5,
+      "train": {
+        "n": 1730,
+        "positive": 886,
+        "positive_rate": 0.5121387283236994
+      },
+      "setting": "none",
+      "model": "gat",
+      "candidate_summary": {
+        "phishing_train": 886,
+        "candidates": 1772,
+        "accepted": 352,
+        "acceptance_rate": 0.1986455981941309,
+        "behavior_rejected": 1410
+      },
+      "training_n": 1730,
+      "training_positive": 886,
+      "result": {
+        "kind": "gat",
+        "epochs_ran": 3,
+        "best_valid_pr_auc": 0.9876188837828493,
+        "valid": {
+          "n": 1038,
+          "positive": 771,
+          "positive_rate": 0.7427745664739884,
+          "threshold": 0.5,
+          "roc_auc": 0.957776514765104,
+          "pr_auc": 0.9876188837828493,
+          "precision": 1.0,
+          "recall": 0.8352788586251622,
+          "f1": 0.9102473498233216,
+          "recall_at_fpr_1pct": 0.8521400778210116,
+          "recall_at_fpr_5pct": 0.8651102464332037
+        },
+        "test": {
+          "n": 1038,
+          "positive": 62,
+          "positive_rate": 0.05973025048169557,
+          "threshold": 0.5,
+          "roc_auc": 0.28134089106292964,
+          "pr_auc": 0.12837719949352816,
+          "precision": 0.058823529411764705,
+          "recall": 0.0967741935483871,
+          "f1": 0.07317073170731707,
+          "recall_at_fpr_1pct": 0.0967741935483871,
+          "recall_at_fpr_5pct": 0.0967741935483871
+        },
+        "history": [
+          {
+            "epoch": 1,
+            "loss": 0.991995286648313,
+            "valid": {
+              "n": 1038,
+              "positive": 771,
+              "positive_rate": 0.7427745664739884,
+              "threshold": 0.5,
+              "roc_auc": 0.8207663572285615,
+              "pr_auc": 0.8482572649373195,
+              "precision": 0.9088541666666666,
+              "recall": 0.9053177691309987,
+              "f1": 0.9070825211176088,
+              "recall_at_fpr_1pct": 0.0,
+              "recall_at_fpr_5pct": 0.0
+            }
+          },
+          {
+            "epoch": 2,
+            "loss": 0.7651420126425503,
+            "valid": {
+              "n": 1038,
+              "positive": 771,
+              "positive_rate": 0.7427745664739884,
+              "threshold": 0.5,
+              "roc_auc": 0.9524427150886294,
+              "pr_auc": 0.9858771198477858,
+              "precision": 1.0,
+              "recall": 0.8326848249027238,
+              "f1": 0.9087048832271762,
+              "recall_at_fpr_1pct": 0.8521400778210116,
+              "recall_at_fpr_5pct": 0.8573281452658884
+            }
+          },
+          {
+            "epoch": 3,
+            "loss": 0.82189264256546,
+            "valid": {
+              "n": 1038,
+              "positive": 771,
+              "positive_rate": 0.7427745664739884,
+              "threshold": 0.5,
+              "roc_auc": 0.957776514765104,
+              "pr_auc": 0.9876188837828493,
+              "precision": 1.0,
+              "recall": 0.8352788586251622,
+              "f1": 0.9102473498233216,
+              "recall_at_fpr_1pct": 0.8521400778210116,
+              "recall_at_fpr_5pct": 0.8651102464332037
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fraction": 0.5,
+      "train": {
+        "n": 1730,
+        "positive": 886,
+        "positive_rate": 0.5121387283236994
+      },
+      "setting": "full",
+      "model": "gat",
+      "candidate_summary": {
+        "phishing_train": 886,
+        "candidates": 1772,
+        "accepted": 352,
+        "acceptance_rate": 0.1986455981941309,
+        "behavior_rejected": 1410
+      },
+      "training_n": 2082,
+      "training_positive": 1238,
+      "result": {
+        "kind": "gat",
+        "epochs_ran": 3,
+        "best_valid_pr_auc": 0.9867308036918132,
+        "valid": {
+          "n": 1038,
+          "positive": 771,
+          "positive_rate": 0.7427745664739884,
+          "threshold": 0.5,
+          "roc_auc": 0.955342786497423,
+          "pr_auc": 0.9867308036918132,
+          "precision": 1.0,
+          "recall": 0.669260700389105,
+          "f1": 0.8018648018648019,
+          "recall_at_fpr_1pct": 0.8482490272373541,
+          "recall_at_fpr_5pct": 0.8612191958495461
+        },
+        "test": {
+          "n": 1038,
+          "positive": 62,
+          "positive_rate": 0.05973025048169557,
+          "threshold": 0.5,
+          "roc_auc": 0.2742348625066103,
+          "pr_auc": 0.08468587389898666,
+          "precision": 0.4444444444444444,
+          "recall": 0.06451612903225806,
+          "f1": 0.11267605633802817,
+          "recall_at_fpr_1pct": 0.06451612903225806,
+          "recall_at_fpr_5pct": 0.06451612903225806
+        },
+        "history": [
+          {
+            "epoch": 1,
+            "loss": 0.8109639089014703,
+            "valid": {
+              "n": 1038,
+              "positive": 771,
+              "positive_rate": 0.7427745664739884,
+              "threshold": 0.5,
+              "roc_auc": 0.8019571838703566,
+              "pr_auc": 0.8354200518677665,
+              "precision": 0.912303664921466,
+              "recall": 0.9040207522697795,
+              "f1": 0.9081433224755701,
+              "recall_at_fpr_1pct": 0.0,
+              "recall_at_fpr_5pct": 0.0
+            }
+          },
+          {
+            "epoch": 2,
+            "loss": 0.7050176980281782,
+            "valid": {
+              "n": 1038,
+              "positive": 771,
+              "positive_rate": 0.7427745664739884,
+              "threshold": 0.5,
+              "roc_auc": 0.955342786497423,
+              "pr_auc": 0.9867308036918132,
+              "precision": 1.0,
+              "recall": 0.669260700389105,
+              "f1": 0.8018648018648019,
+              "recall_at_fpr_1pct": 0.8482490272373541,
+              "recall_at_fpr_5pct": 0.8612191958495461
+            }
+          },
+          {
+            "epoch": 3,
+            "loss": 0.5034315234570552,
+            "valid": {
+              "n": 1038,
+              "positive": 771,
+              "positive_rate": 0.7427745664739884,
+              "threshold": 0.5,
+              "roc_auc": 0.8646851940910438,
+              "pr_auc": 0.9022077328300053,
+              "precision": 0.9432835820895522,
+              "recall": 0.8197146562905318,
+              "f1": 0.8771686328938237,
+              "recall_at_fpr_1pct": 0.0,
+              "recall_at_fpr_5pct": 0.0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fraction": 1.0,
+      "train": {
+        "n": 3460,
+        "positive": 1771,
+        "positive_rate": 0.511849710982659
+      },
+      "setting": "none",
+      "model": "sage",
+      "candidate_summary": {
+        "phishing_train": 1771,
+        "candidates": 3542,
+        "accepted": 815,
+        "acceptance_rate": 0.2300959909655562,
+        "behavior_rejected": 2711
+      },
+      "training_n": 3460,
+      "training_positive": 1771,
+      "result": {
+        "kind": "sage",
+        "epochs_ran": 3,
+        "best_valid_pr_auc": 0.9900317750366907,
+        "valid": {
+          "n": 1038,
+          "positive": 771,
+          "positive_rate": 0.7427745664739884,
+          "threshold": 0.5,
+          "roc_auc": 0.9698990075635028,
+          "pr_auc": 0.9900317750366907,
+          "precision": 0.9955489614243324,
+          "recall": 0.8702983138780804,
+          "f1": 0.928719723183391,
+          "recall_at_fpr_1pct": 0.6939040207522698,
+          "recall_at_fpr_5pct": 0.8884565499351491
+        },
+        "test": {
+          "n": 1038,
+          "positive": 62,
+          "positive_rate": 0.05973025048169557,
+          "threshold": 0.5,
+          "roc_auc": 0.4927782919090428,
+          "pr_auc": 0.27464677008344845,
+          "precision": 0.14782608695652175,
+          "recall": 0.27419354838709675,
+          "f1": 0.192090395480226,
+          "recall_at_fpr_1pct": 0.25806451612903225,
+          "recall_at_fpr_5pct": 0.25806451612903225
+        },
+        "history": [
+          {
+            "epoch": 1,
+            "loss": 0.7858097325743847,
+            "valid": {
+              "n": 1038,
+              "positive": 771,
+              "positive_rate": 0.7427745664739884,
+              "threshold": 0.5,
+              "roc_auc": 0.9400360444386152,
+              "pr_auc": 0.9818564270628253,
+              "precision": 1.0,
+              "recall": 0.8352788586251622,
+              "f1": 0.9102473498233216,
+              "recall_at_fpr_1pct": 0.867704280155642,
+              "recall_at_fpr_5pct": 0.8754863813229572
+            }
+          },
+          {
+            "epoch": 2,
+            "loss": 0.756495356730125,
+            "valid": {
+              "n": 1038,
+              "positive": 771,
+              "positive_rate": 0.7427745664739884,
+              "threshold": 0.5,
+              "roc_auc": 0.9370606780434962,
+              "pr_auc": 0.9769046748471284,
+              "precision": 1.0,
+              "recall": 0.8326848249027238,
+              "f1": 0.9087048832271762,
+              "recall_at_fpr_1pct": 0.8430609597924773,
+              "recall_at_fpr_5pct": 0.8508430609597925
+            }
+          },
+          {
+            "epoch": 3,
+            "loss": 0.9403698388399363,
+            "valid": {
+              "n": 1038,
+              "positive": 771,
+              "positive_rate": 0.7427745664739884,
+              "threshold": 0.5,
+              "roc_auc": 0.9698990075635028,
+              "pr_auc": 0.9900317750366907,
+              "precision": 0.9955489614243324,
+              "recall": 0.8702983138780804,
+              "f1": 0.928719723183391,
+              "recall_at_fpr_1pct": 0.6939040207522698,
+              "recall_at_fpr_5pct": 0.8884565499351491
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fraction": 1.0,
+      "train": {
+        "n": 3460,
+        "positive": 1771,
+        "positive_rate": 0.511849710982659
+      },
+      "setting": "full",
+      "model": "sage",
+      "candidate_summary": {
+        "phishing_train": 1771,
+        "candidates": 3542,
+        "accepted": 815,
+        "acceptance_rate": 0.2300959909655562,
+        "behavior_rejected": 2711
+      },
+      "training_n": 4275,
+      "training_positive": 2586,
+      "result": {
+        "kind": "sage",
+        "epochs_ran": 3,
+        "best_valid_pr_auc": 0.8769653772525805,
+        "valid": {
+          "n": 1038,
+          "positive": 771,
+          "positive_rate": 0.7427745664739884,
+          "threshold": 0.5,
+          "roc_auc": 0.8620474406991262,
+          "pr_auc": 0.8769653772525805,
+          "precision": 0.940379403794038,
+          "recall": 0.9001297016861219,
+          "f1": 0.9198144466534128,
+          "recall_at_fpr_1pct": 0.0,
+          "recall_at_fpr_5pct": 0.0
+        },
+        "test": {
+          "n": 1038,
+          "positive": 62,
+          "positive_rate": 0.05973025048169557,
+          "threshold": 0.5,
+          "roc_auc": 0.8858160364886304,
+          "pr_auc": 0.255471821420426,
+          "precision": 0.17220543806646527,
+          "recall": 0.9193548387096774,
+          "f1": 0.2900763358778626,
+          "recall_at_fpr_1pct": 0.0,
+          "recall_at_fpr_5pct": 0.0
+        },
+        "history": [
+          {
+            "epoch": 1,
+            "loss": 0.6933715323747068,
+            "valid": {
+              "n": 1038,
+              "positive": 771,
+              "positive_rate": 0.7427745664739884,
+              "threshold": 0.5,
+              "roc_auc": 0.8395779594572932,
+              "pr_auc": 0.861501570342994,
+              "precision": 0.9391891891891891,
+              "recall": 0.9014267185473411,
+              "f1": 0.9199205823957644,
+              "recall_at_fpr_1pct": 0.0,
+              "recall_at_fpr_5pct": 0.0
+            }
+          },
+          {
+            "epoch": 2,
+            "loss": 0.7122832332037403,
+            "valid": {
+              "n": 1038,
+              "positive": 771,
+              "positive_rate": 0.7427745664739884,
+              "threshold": 0.5,
+              "roc_auc": 0.7911948585668693,
+              "pr_auc": 0.8419788249470389,
+              "precision": 0.9132720105124835,
+              "recall": 0.9014267185473411,
+              "f1": 0.9073107049608355,
+              "recall_at_fpr_1pct": 0.0,
+              "recall_at_fpr_5pct": 0.0
+            }
+          },
+          {
+            "epoch": 3,
+            "loss": 0.778309531691993,
+            "valid": {
+              "n": 1038,
+              "positive": 771,
+              "positive_rate": 0.7427745664739884,
+              "threshold": 0.5,
+              "roc_auc": 0.8620474406991262,
+              "pr_auc": 0.8769653772525805,
+              "precision": 0.940379403794038,
+              "recall": 0.9001297016861219,
+              "f1": 0.9198144466534128,
+              "recall_at_fpr_1pct": 0.0,
+              "recall_at_fpr_5pct": 0.0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fraction": 1.0,
+      "train": {
+        "n": 3460,
+        "positive": 1771,
+        "positive_rate": 0.511849710982659
+      },
+      "setting": "none",
+      "model": "gat",
+      "candidate_summary": {
+        "phishing_train": 1771,
+        "candidates": 3542,
+        "accepted": 815,
+        "acceptance_rate": 0.2300959909655562,
+        "behavior_rejected": 2711
+      },
+      "training_n": 3460,
+      "training_positive": 1771,
+      "result": {
+        "kind": "gat",
+        "epochs_ran": 3,
+        "best_valid_pr_auc": 0.9900261212973185,
+        "valid": {
+          "n": 1038,
+          "positive": 771,
+          "positive_rate": 0.7427745664739884,
+          "threshold": 0.5,
+          "roc_auc": 0.9651991430944783,
+          "pr_auc": 0.9900261212973185,
+          "precision": 1.0,
+          "recall": 0.7704280155642024,
+          "f1": 0.8703296703296703,
+          "recall_at_fpr_1pct": 0.8664072632944229,
+          "recall_at_fpr_5pct": 0.880674448767834
+        },
+        "test": {
+          "n": 1038,
+          "positive": 62,
+          "positive_rate": 0.05973025048169557,
+          "threshold": 0.5,
+          "roc_auc": 0.3018987969328397,
+          "pr_auc": 0.17680531446264866,
+          "precision": 0.17307692307692307,
+          "recall": 0.14516129032258066,
+          "f1": 0.15789473684210525,
+          "recall_at_fpr_1pct": 0.14516129032258066,
+          "recall_at_fpr_5pct": 0.14516129032258066
+        },
+        "history": [
+          {
+            "epoch": 1,
+            "loss": 0.8902303928118155,
+            "valid": {
+              "n": 1038,
+              "positive": 771,
+              "positive_rate": 0.7427745664739884,
+              "threshold": 0.5,
+              "roc_auc": 0.9533438260540085,
+              "pr_auc": 0.9819500170849333,
+              "precision": 1.0,
+              "recall": 0.8573281452658884,
+              "f1": 0.9231843575418994,
+              "recall_at_fpr_1pct": 0.8715953307392996,
+              "recall_at_fpr_5pct": 0.8780804150453956
+            }
+          },
+          {
+            "epoch": 2,
+            "loss": 0.8171668821682808,
+            "valid": {
+              "n": 1038,
+              "positive": 771,
+              "positive_rate": 0.7427745664739884,
+              "threshold": 0.5,
+              "roc_auc": 0.9281200056349795,
+              "pr_auc": 0.9469423018738667,
+              "precision": 0.9701704545454546,
+              "recall": 0.8858625162127107,
+              "f1": 0.9261016949152543,
+              "recall_at_fpr_1pct": 0.0,
+              "recall_at_fpr_5pct": 0.6874189364461738
+            }
+          },
+          {
+            "epoch": 3,
+            "loss": 0.9813624986637186,
+            "valid": {
+              "n": 1038,
+              "positive": 771,
+              "positive_rate": 0.7427745664739884,
+              "threshold": 0.5,
+              "roc_auc": 0.9651991430944783,
+              "pr_auc": 0.9900261212973185,
+              "precision": 1.0,
+              "recall": 0.7704280155642024,
+              "f1": 0.8703296703296703,
+              "recall_at_fpr_1pct": 0.8664072632944229,
+              "recall_at_fpr_5pct": 0.880674448767834
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fraction": 1.0,
+      "train": {
+        "n": 3460,
+        "positive": 1771,
+        "positive_rate": 0.511849710982659
+      },
+      "setting": "full",
+      "model": "gat",
+      "candidate_summary": {
+        "phishing_train": 1771,
+        "candidates": 3542,
+        "accepted": 815,
+        "acceptance_rate": 0.2300959909655562,
+        "behavior_rejected": 2711
+      },
+      "training_n": 4275,
+      "training_positive": 2586,
+      "result": {
+        "kind": "gat",
+        "epochs_ran": 3,
+        "best_valid_pr_auc": 0.9548690488745433,
+        "valid": {
+          "n": 1038,
+          "positive": 771,
+          "positive_rate": 0.7427745664739884,
+          "threshold": 0.5,
+          "roc_auc": 0.9398368770554317,
+          "pr_auc": 0.9548690488745433,
+          "precision": 0.9649368863955119,
+          "recall": 0.8923476005188068,
+          "f1": 0.9272237196765498,
+          "recall_at_fpr_1pct": 0.0038910505836575876,
+          "recall_at_fpr_5pct": 0.7055771725032426
+        },
+        "test": {
+          "n": 1038,
+          "positive": 62,
+          "positive_rate": 0.05973025048169557,
+          "threshold": 0.5,
+          "roc_auc": 0.9010526837652036,
+          "pr_auc": 0.3294443473875837,
+          "precision": 0.2196078431372549,
+          "recall": 0.9032258064516129,
+          "f1": 0.35331230283911674,
+          "recall_at_fpr_1pct": 0.12903225806451613,
+          "recall_at_fpr_5pct": 0.41935483870967744
+        },
+        "history": [
+          {
+            "epoch": 1,
+            "loss": 0.6949625081949539,
+            "valid": {
+              "n": 1038,
+              "positive": 771,
+              "positive_rate": 0.7427745664739884,
+              "threshold": 0.5,
+              "roc_auc": 0.9398368770554317,
+              "pr_auc": 0.9548690488745433,
+              "precision": 0.9649368863955119,
+              "recall": 0.8923476005188068,
+              "f1": 0.9272237196765498,
+              "recall_at_fpr_1pct": 0.0038910505836575876,
+              "recall_at_fpr_5pct": 0.7055771725032426
+            }
+          },
+          {
+            "epoch": 2,
+            "loss": 0.615135251675447,
+            "valid": {
+              "n": 1038,
+              "positive": 771,
+              "positive_rate": 0.7427745664739884,
+              "threshold": 0.5,
+              "roc_auc": 0.8045196422759489,
+              "pr_auc": 0.8424562282234326,
+              "precision": 0.9121887287024901,
+              "recall": 0.9027237354085603,
+              "f1": 0.9074315514993481,
+              "recall_at_fpr_1pct": 0.0,
+              "recall_at_fpr_5pct": 0.0
+            }
+          },
+          {
+            "epoch": 3,
+            "loss": 0.7967732369709152,
+            "valid": {
+              "n": 1038,
+              "positive": 771,
+              "positive_rate": 0.7427745664739884,
+              "threshold": 0.5,
+              "roc_auc": 0.8677091378966952,
+              "pr_auc": 0.876574267059212,
+              "precision": 0.939106901217862,
+              "recall": 0.9001297016861219,
+              "f1": 0.919205298013245,
+              "recall_at_fpr_1pct": 0.0,
+              "recall_at_fpr_5pct": 0.0
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

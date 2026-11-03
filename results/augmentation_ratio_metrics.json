@@ -1,0 +1,545 @@
+{
+  "purpose": "estimate how augmentation ratio and candidate quality affect scarce-data training",
+  "window": "window_2_ratio_quality",
+  "split": {
+    "train": {
+      "n": 3460,
+      "positive": 1771,
+      "positive_rate": 0.511849710982659
+    },
+    "valid": {
+      "n": 1038,
+      "positive": 771,
+      "positive_rate": 0.7427745664739884
+    },
+    "test": {
+      "n": 1038,
+      "positive": 62,
+      "positive_rate": 0.05973025048169557
+    }
+  },
+  "runs": [
+    {
+      "fraction": 0.25,
+      "seed": 42,
+      "multiplier": 1,
+      "quality": "none",
+      "train": {
+        "n": 865,
+        "positive": 443,
+        "positive_rate": 0.5121387283236994
+      },
+      "training_n": 865,
+      "training_positive": 443,
+      "candidate_summary": {
+        "candidate_count": 443,
+        "structure_time_count": 429,
+        "full_count": 112,
+        "full_acceptance_rate": 0.2528216704288939,
+        "behavior_rejected": 326
+      },
+      "test": {
+        "roc_auc": 0.8628619116869382,
+        "pr_auc": 0.21312976988728088,
+        "precision": 0.10881801125703565,
+        "recall": 0.9354838709677419,
+        "f1": 0.1949579831932773,
+        "recall_at_fpr_1pct": 0.0,
+        "recall_at_fpr_5pct": 0.0
+      }
+    },
+    {
+      "fraction": 0.25,
+      "seed": 42,
+      "multiplier": 1,
+      "quality": "raw",
+      "train": {
+        "n": 865,
+        "positive": 443,
+        "positive_rate": 0.5121387283236994
+      },
+      "training_n": 1308,
+      "training_positive": 886,
+      "candidate_summary": {
+        "candidate_count": 443,
+        "structure_time_count": 429,
+        "full_count": 112,
+        "full_acceptance_rate": 0.2528216704288939,
+        "behavior_rejected": 326
+      },
+      "test": {
+        "roc_auc": 0.695845452141724,
+        "pr_auc": 0.1476278101028639,
+        "precision": 0.045454545454545456,
+        "recall": 0.1774193548387097,
+        "f1": 0.07236842105263158,
+        "recall_at_fpr_1pct": 0.08064516129032258,
+        "recall_at_fpr_5pct": 0.08064516129032258
+      }
+    },
+    {
+      "fraction": 0.25,
+      "seed": 42,
+      "multiplier": 1,
+      "quality": "full",
+      "train": {
+        "n": 865,
+        "positive": 443,
+        "positive_rate": 0.5121387283236994
+      },
+      "training_n": 977,
+      "training_positive": 555,
+      "candidate_summary": {
+        "candidate_count": 443,
+        "structure_time_count": 429,
+        "full_count": 112,
+        "full_acceptance_rate": 0.2528216704288939,
+        "behavior_rejected": 326
+      },
+      "test": {
+        "roc_auc": 0.8591932178741407,
+        "pr_auc": 0.21423445140515582,
+        "precision": 0.11132437619961612,
+        "recall": 0.9354838709677419,
+        "f1": 0.19897084048027444,
+        "recall_at_fpr_1pct": 0.0,
+        "recall_at_fpr_5pct": 0.0
+      }
+    },
+    {
+      "fraction": 0.25,
+      "seed": 42,
+      "multiplier": 2,
+      "quality": "none",
+      "train": {
+        "n": 865,
+        "positive": 443,
+        "positive_rate": 0.5121387283236994
+      },
+      "training_n": 865,
+      "training_positive": 443,
+      "candidate_summary": {
+        "candidate_count": 886,
+        "structure_time_count": 859,
+        "full_count": 183,
+        "full_acceptance_rate": 0.20654627539503387,
+        "behavior_rejected": 700
+      },
+      "test": {
+        "roc_auc": 0.8628619116869382,
+        "pr_auc": 0.21312976988728088,
+        "precision": 0.10881801125703565,
+        "recall": 0.9354838709677419,
+        "f1": 0.1949579831932773,
+        "recall_at_fpr_1pct": 0.0,
+        "recall_at_fpr_5pct": 0.0
+      }
+    },
+    {
+      "fraction": 0.25,
+      "seed": 42,
+      "multiplier": 2,
+      "quality": "raw",
+      "train": {
+        "n": 865,
+        "positive": 443,
+        "positive_rate": 0.5121387283236994
+      },
+      "training_n": 1751,
+      "training_positive": 1329,
+      "candidate_summary": {
+        "candidate_count": 886,
+        "structure_time_count": 859,
+        "full_count": 183,
+        "full_acceptance_rate": 0.20654627539503387,
+        "behavior_rejected": 700
+      },
+      "test": {
+        "roc_auc": 0.26115481226864096,
+        "pr_auc": 0.12675437623905242,
+        "precision": 0.875,
+        "recall": 0.11290322580645161,
+        "f1": 0.2,
+        "recall_at_fpr_1pct": 0.11290322580645161,
+        "recall_at_fpr_5pct": 0.11290322580645161
+      }
+    },
+    {
+      "fraction": 0.25,
+      "seed": 42,
+      "multiplier": 2,
+      "quality": "full",
+      "train": {
+        "n": 865,
+        "positive": 443,
+        "positive_rate": 0.5121387283236994
+      },
+      "training_n": 1048,
+      "training_positive": 626,
+      "candidate_summary": {
+        "candidate_count": 886,
+        "structure_time_count": 859,
+        "full_count": 183,
+        "full_acceptance_rate": 0.20654627539503387,
+        "behavior_rejected": 700
+      },
+      "test": {
+        "roc_auc": 0.8783133923849815,
+        "pr_auc": 0.21832561354088806,
+        "precision": 0.15326633165829145,
+        "recall": 0.9838709677419355,
+        "f1": 0.26521739130434785,
+        "recall_at_fpr_1pct": 0.0,
+        "recall_at_fpr_5pct": 0.0
+      }
+    },
+    {
+      "fraction": 0.25,
+      "seed": 42,
+      "multiplier": 5,
+      "quality": "none",
+      "train": {
+        "n": 865,
+        "positive": 443,
+        "positive_rate": 0.5121387283236994
+      },
+      "training_n": 865,
+      "training_positive": 443,
+      "candidate_summary": {
+        "candidate_count": 2215,
+        "structure_time_count": 2144,
+        "full_count": 510,
+        "full_acceptance_rate": 0.23024830699774265,
+        "behavior_rejected": 1688
+      },
+      "test": {
+        "roc_auc": 0.8628619116869382,
+        "pr_auc": 0.21312976988728088,
+        "precision": 0.10881801125703565,
+        "recall": 0.9354838709677419,
+        "f1": 0.1949579831932773,
+        "recall_at_fpr_1pct": 0.0,
+        "recall_at_fpr_5pct": 0.0
+      }
+    },
+    {
+      "fraction": 0.25,
+      "seed": 42,
+      "multiplier": 5,
+      "quality": "raw",
+      "train": {
+        "n": 865,
+        "positive": 443,
+        "positive_rate": 0.5121387283236994
+      },
+      "training_n": 3080,
+      "training_positive": 2658,
+      "candidate_summary": {
+        "candidate_count": 2215,
+        "structure_time_count": 2144,
+        "full_count": 510,
+        "full_acceptance_rate": 0.23024830699774265,
+        "behavior_rejected": 1688
+      },
+      "test": {
+        "roc_auc": 0.4447051824431518,
+        "pr_auc": 0.11602464750166795,
+        "precision": 0.04504504504504504,
+        "recall": 0.16129032258064516,
+        "f1": 0.07042253521126761,
+        "recall_at_fpr_1pct": 0.11290322580645161,
+        "recall_at_fpr_5pct": 0.11290322580645161
+      }
+    },
+    {
+      "fraction": 0.25,
+      "seed": 42,
+      "multiplier": 5,
+      "quality": "full",
+      "train": {
+        "n": 865,
+        "positive": 443,
+        "positive_rate": 0.5121387283236994
+      },
+      "training_n": 1375,
+      "training_positive": 953,
+      "candidate_summary": {
+        "candidate_count": 2215,
+        "structure_time_count": 2144,
+        "full_count": 510,
+        "full_acceptance_rate": 0.23024830699774265,
+        "behavior_rejected": 1688
+      },
+      "test": {
+        "roc_auc": 0.7162298387096774,
+        "pr_auc": 0.4049120701028651,
+        "precision": 0.8846153846153846,
+        "recall": 0.3709677419354839,
+        "f1": 0.5227272727272727,
+        "recall_at_fpr_1pct": 0.4032258064516129,
+        "recall_at_fpr_5pct": 0.4032258064516129
+      }
+    },
+    {
+      "fraction": 1.0,
+      "seed": 42,
+      "multiplier": 1,
+      "quality": "none",
+      "train": {
+        "n": 3460,
+        "positive": 1771,
+        "positive_rate": 0.511849710982659
+      },
+      "training_n": 3460,
+      "training_positive": 1771,
+      "candidate_summary": {
+        "candidate_count": 1771,
+        "structure_time_count": 1731,
+        "full_count": 399,
+        "full_acceptance_rate": 0.22529644268774704,
+        "behavior_rejected": 1366
+      },
+      "test": {
+        "roc_auc": 0.2308632998413538,
+        "pr_auc": 0.14841863935443955,
+        "precision": 0.06862745098039216,
+        "recall": 0.11290322580645161,
+        "f1": 0.08536585365853659,
+        "recall_at_fpr_1pct": 0.11290322580645161,
+        "recall_at_fpr_5pct": 0.11290322580645161
+      }
+    },
+    {
+      "fraction": 1.0,
+      "seed": 42,
+      "multiplier": 1,
+      "quality": "raw",
+      "train": {
+        "n": 3460,
+        "positive": 1771,
+        "positive_rate": 0.511849710982659
+      },
+      "training_n": 5231,
+      "training_positive": 3542,
+      "candidate_summary": {
+        "candidate_count": 1771,
+        "structure_time_count": 1731,
+        "full_count": 399,
+        "full_acceptance_rate": 0.22529644268774704,
+        "behavior_rejected": 1366
+      },
+      "test": {
+        "roc_auc": 0.2680129561078795,
+        "pr_auc": 0.08347505684411799,
+        "precision": 0.0673076923076923,
+        "recall": 0.11290322580645161,
+        "f1": 0.08433734939759036,
+        "recall_at_fpr_1pct": 0.06451612903225806,
+        "recall_at_fpr_5pct": 0.06451612903225806
+      }
+    },
+    {
+      "fraction": 1.0,
+      "seed": 42,
+      "multiplier": 1,
+      "quality": "full",
+      "train": {
+        "n": 3460,
+        "positive": 1771,
+        "positive_rate": 0.511849710982659
+      },
+      "training_n": 3859,
+      "training_positive": 2170,
+      "candidate_summary": {
+        "candidate_count": 1771,
+        "structure_time_count": 1731,
+        "full_count": 399,
+        "full_acceptance_rate": 0.22529644268774704,
+        "behavior_rejected": 1366
+      },
+      "test": {
+        "roc_auc": 0.35574762030671603,
+        "pr_auc": 0.1211808318068324,
+        "precision": 0.09090909090909091,
+        "recall": 0.16129032258064516,
+        "f1": 0.11627906976744186,
+        "recall_at_fpr_1pct": 0.11290322580645161,
+        "recall_at_fpr_5pct": 0.14516129032258066
+      }
+    },
+    {
+      "fraction": 1.0,
+      "seed": 42,
+      "multiplier": 2,
+      "quality": "none",
+      "train": {
+        "n": 3460,
+        "positive": 1771,
+        "positive_rate": 0.511849710982659
+      },
+      "training_n": 3460,
+      "training_positive": 1771,
+      "candidate_summary": {
+        "candidate_count": 3542,
+        "structure_time_count": 3470,
+        "full_count": 761,
+        "full_acceptance_rate": 0.21485036702428006,
+        "behavior_rejected": 2768
+      },
+      "test": {
+        "roc_auc": 0.2308632998413538,
+        "pr_auc": 0.14841863935443955,
+        "precision": 0.06862745098039216,
+        "recall": 0.11290322580645161,
+        "f1": 0.08536585365853659,
+        "recall_at_fpr_1pct": 0.11290322580645161,
+        "recall_at_fpr_5pct": 0.11290322580645161
+      }
+    },
+    {
+      "fraction": 1.0,
+      "seed": 42,
+      "multiplier": 2,
+      "quality": "raw",
+      "train": {
+        "n": 3460,
+        "positive": 1771,
+        "positive_rate": 0.511849710982659
+      },
+      "training_n": 7002,
+      "training_positive": 5313,
+      "candidate_summary": {
+        "candidate_count": 3542,
+        "structure_time_count": 3470,
+        "full_count": 761,
+        "full_acceptance_rate": 0.21485036702428006,
+        "behavior_rejected": 2768
+      },
+      "test": {
+        "roc_auc": 0.548783712321523,
+        "pr_auc": 0.26026980903951313,
+        "precision": 0.7083333333333334,
+        "recall": 0.27419354838709675,
+        "f1": 0.3953488372093023,
+        "recall_at_fpr_1pct": 0.2903225806451613,
+        "recall_at_fpr_5pct": 0.2903225806451613
+      }
+    },
+    {
+      "fraction": 1.0,
+      "seed": 42,
+      "multiplier": 2,
+      "quality": "full",
+      "train": {
+        "n": 3460,
+        "positive": 1771,
+        "positive_rate": 0.511849710982659
+      },
+      "training_n": 4221,
+      "training_positive": 2532,
+      "candidate_summary": {
+        "candidate_count": 3542,
+        "structure_time_count": 3470,
+        "full_count": 761,
+        "full_acceptance_rate": 0.21485036702428006,
+        "behavior_rejected": 2768
+      },
+      "test": {
+        "roc_auc": 0.2330612109994712,
+        "pr_auc": 0.1152575257091848,
+        "precision": 0.06862745098039216,
+        "recall": 0.11290322580645161,
+        "f1": 0.08536585365853659,
+        "recall_at_fpr_1pct": 0.11290322580645161,
+        "recall_at_fpr_5pct": 0.11290322580645161
+      }
+    },
+    {
+      "fraction": 1.0,
+      "seed": 42,
+      "multiplier": 5,
+      "quality": "none",
+      "train": {
+        "n": 3460,
+        "positive": 1771,
+        "positive_rate": 0.511849710982659
+      },
+      "training_n": 3460,
+      "training_positive": 1771,
+      "candidate_summary": {
+        "candidate_count": 8855,
+        "structure_time_count": 8677,
+        "full_count": 1846,
+        "full_acceptance_rate": 0.20846979107848673,
+        "behavior_rejected": 6967
+      },
+      "test": {
+        "roc_auc": 0.2308632998413538,
+        "pr_auc": 0.14841863935443955,
+        "precision": 0.06862745098039216,
+        "recall": 0.11290322580645161,
+        "f1": 0.08536585365853659,
+        "recall_at_fpr_1pct": 0.11290322580645161,
+        "recall_at_fpr_5pct": 0.11290322580645161
+      }
+    },
+    {
+      "fraction": 1.0,
+      "seed": 42,
+      "multiplier": 5,
+      "quality": "raw",
+      "train": {
+        "n": 3460,
+        "positive": 1771,
+        "positive_rate": 0.511849710982659
+      },
+      "training_n": 12315,
+      "training_positive": 10626,
+      "candidate_summary": {
+        "candidate_count": 8855,
+        "structure_time_count": 8677,
+        "full_count": 1846,
+        "full_acceptance_rate": 0.20846979107848673,
+        "behavior_rejected": 6967
+      },
+      "test": {
+        "roc_auc": 0.8788752644103648,
+        "pr_auc": 0.2282502516629701,
+        "precision": 0.24691358024691357,
+        "recall": 0.967741935483871,
+        "f1": 0.39344262295081966,
+        "recall_at_fpr_1pct": 0.0,
+        "recall_at_fpr_5pct": 0.0
+      }
+    },
+    {
+      "fraction": 1.0,
+      "seed": 42,
+      "multiplier": 5,
+      "quality": "full",
+      "train": {
+        "n": 3460,
+        "positive": 1771,
+        "positive_rate": 0.511849710982659
+      },
+      "training_n": 5306,
+      "training_positive": 3617,
+      "candidate_summary": {
+        "candidate_count": 8855,
+        "structure_time_count": 8677,
+        "full_count": 1846,
+        "full_acceptance_rate": 0.20846979107848673,
+        "behavior_rejected": 6967
+      },
+      "test": {
+        "roc_auc": 0.2378949629825489,
+        "pr_auc": 0.12555151335665063,
+        "precision": 0.7777777777777778,
+        "recall": 0.11290322580645161,
+        "f1": 0.19718309859154928,
+        "recall_at_fpr_1pct": 0.11290322580645161,
+        "recall_at_fpr_5pct": 0.11290322580645161
+      }
+    }
+  ]
+}

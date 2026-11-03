@@ -1,0 +1,4709 @@
+{
+  "data": {
+    "raw_rows": 18674,
+    "graphs": 6919,
+    "edge_monthly_audit": [
+      {
+        "period": "2016-12",
+        "n": 2,
+        "phishing": 0,
+        "benign": 2,
+        "phishing_rate": 0.0,
+        "top_phishing_categories": [
+          [
+            "Benign Developer",
+            2
+          ]
+        ],
+        "top_methods": [
+          [
+            "0x095ea7b3",
+            2
+          ]
+        ]
+      },
+      {
+        "period": "2017-01",
+        "n": 1,
+        "phishing": 0,
+        "benign": 1,
+        "phishing_rate": 0.0,
+        "top_phishing_categories": [
+          [
+            "Benign Developer",
+            1
+          ]
+        ],
+        "top_methods": [
+          [
+            "0x095ea7b3",
+            1
+          ]
+        ]
+      },
+      {
+        "period": "2017-02",
+        "n": 20,
+        "phishing": 0,
+        "benign": 20,
+        "phishing_rate": 0.0,
+        "top_phishing_categories": [
+          [
+            "Benign Developer",
+            20
+          ]
+        ],
+        "top_methods": [
+          [
+            "0x40e58ee5",
+            20
+          ]
+        ]
+      },
+      {
+        "period": "2017-05",
+        "n": 51,
+        "phishing": 0,
+        "benign": 51,
+        "phishing_rate": 0.0,
+        "top_phishing_categories": [
+          [
+            "Benign Developer",
+            51
+          ]
+        ],
+        "top_methods": [
+          [
+            "0x13af4035",
+            12
+          ],
+          [
+            "0x7d40583d",
+            12
+          ],
+          [
+            "0x67aff484",
+            10
+          ],
+          [
+            "0x18178358",
+            5
+          ],
+          [
+            "0xcbd5accc",
+            3
+          ],
+          [
+            "0x1504460f",
+            2
+          ],
+          [
+            "0x2801617e",
+            1
+          ],
+          [
+            "0xd381ba7c",
+            1
+          ]
+        ]
+      },
+      {
+        "period": "2017-06",
+        "n": 13,
+        "phishing": 0,
+        "benign": 13,
+        "phishing_rate": 0.0,
+        "top_phishing_categories": [
+          [
+            "Benign Developer",
+            13
+          ]
+        ],
+        "top_methods": [
+          [
+            "0x67aff484",
+            11
+          ],
+          [
+            "0x06a36aee",
+            1
+          ],
+          [
+            "0xd381ba7c",
+            1
+          ]
+        ]
+      },
+      {
+        "period": "2017-07",
+        "n": 118,
+        "phishing": 0,
+        "benign": 118,
+        "phishing_rate": 0.0,
+        "top_phishing_categories": [
+          [
+            "Benign Developer",
+            118
+          ]
+        ],
+        "top_methods": [
+          [
+            "0xcbeea68c",
+            33
+          ],
+          [
+            "0xf2c298be",
+            27
+          ],
+          [
+            "0x7a9e5e4b",
+            18
+          ],
+          [
+            "0x7d40583d",
+            16
+          ],
+          [
+            "0x67aff484",
+            13
+          ],
+          [
+            "0x420f2ed9",
+            2
+          ],
+          [
+            "0x31c2bd0b",
+            2
+          ],
+          [
+            "0xba0179b5",
+            2
+          ]
+        ]
+      },
+      {
+        "period": "2017-08",
+        "n": 11,
+        "phishing": 0,
+        "benign": 11,
+        "phishing_rate": 0.0,
+        "top_phishing_categories": [
+          [
+            "Benign Developer",
+            11
+          ]
+        ],
+        "top_methods": [
+          [
+            "0x095ea7b3",
+            4
+          ],
+          [
+            "0x07c241aa",
+            1
+          ],
+          [
+            "0x67c48dd6",
+            1
+          ],
+          [
+            "0x00000000",
+            1
+          ],
+          [
+            "0x295d3a54",
+            1
+          ],
+          [
+            "0xfcfff16f",
+            1
+          ],
+          [
+            "0xd0e30db0",
+            1
+          ],
+          [
+            "0xa22664ad",
+            1
+          ]
+        ]
+      },
+      {
+        "period": "2017-09",
+        "n": 26,
+        "phishing": 0,
+        "benign": 26,
+        "phishing_rate": 0.0,
+        "top_phishing_categories": [
+          [
+            "Benign Developer",
+            26
+          ]
+        ],
+        "top_methods": [
+          [
+            "0x5a686699",
+            24
+          ],
+          [
+            "0x2801617e",
+            1
+          ],
+          [
+            "0x2e1a7d4d",
+            1
+          ]
+        ]
+      },
+      {
+        "period": "2017-11",
+        "n": 7,
+        "phishing": 0,
+        "benign": 7,
+        "phishing_rate": 0.0,
+        "top_phishing_categories": [
+          [
+            "Benign KOL",
+            7
+          ]
+        ],
+        "top_methods": [
+          [
+            "0x",
+            2
+          ],
+          [
+            "0x0a19b14a",
+            2
+          ],
+          [
+            "0xd0e30db0",
+            1
+          ],
+          [
+            "0x2e1a7d4d",
+            1
+          ],
+          [
+            "0x9e281a98",
+            1
+          ]
+        ]
+      },
+      {
+        "period": "2017-12",
+        "n": 127,
+        "phishing": 0,
+        "benign": 127,
+        "phishing_rate": 0.0,
+        "top_phishing_categories": [
+          [
+            "Random Block Benign",
+            81
+          ],
+          [
+            "Benign Developer",
+            35
+          ],
+          [
+            "Benign KOL",
+            11
+          ]
+        ],
+        "top_methods": [
+          [
+            "0x",
+            78
+          ],
+          [
+            "0xbf7c734e",
+            21
+          ],
+          [
+            "0x15e28700",
+            13
+          ],
+          [
+            "0xa9059cbb",
+            5
+          ],
+          [
+            "0x379607f5",
+            4
+          ],
+          [
+            "0x338b5dea",
+            2
+          ],
+          [
+            "0x13af4035",
+            1
+          ],
+          [
+            "0x00000000",
+            1
+          ]
+        ]
+      },
+      {
+        "period": "2018-01",
+        "n": 4,
+        "phishing": 0,
+        "benign": 4,
+        "phishing_rate": 0.0,
+        "top_phishing_categories": [
+          [
+            "Benign KOL",
+            2
+          ],
+          [
+            "Benign Developer",
+            2
+          ]
+        ],
+        "top_methods": [
+          [
+            "0xa9059cbb",
+            1
+          ],
+          [
+            "0x",
+            1
+          ],
+          [
+            "0x3435e5f3",
+            1
+          ],
+          [
+            "0x095ea7b3",
+            1
+          ]
+        ]
+      },
+      {
+        "period": "2018-02",
+        "n": 21,
+        "phishing": 0,
+        "benign": 21,
+        "phishing_rate": 0.0,
+        "top_phishing_categories": [
+          [
+            "Benign Developer",
+            17
+          ],
+          [
+            "Benign KOL",
+            4
+          ]
+        ],
+        "top_methods": [
+          [
+            "0x18178358",
+            14
+          ],
+          [
+            "0x",
+            6
+          ],
+          [
+            "0x1cff79cd",
+            1
+          ]
+        ]
+      },
+      {
+        "period": "2018-03",
+        "n": 21,
+        "phishing": 0,
+        "benign": 21,
+        "phishing_rate": 0.0,
+        "top_phishing_categories": [
+          [
+            "Benign KOL",
+            20
+          ],
+          [
+            "Benign Developer",
+            1
+          ]
+        ],
+        "top_methods": [
+          [
+            "0xa9059cbb",
+            10
+          ],
+          [
+            "0x",
+            5
+          ],
+          [
+            "0x095ea7b3",
+            2
+          ],
+          [
+            "0x338b5dea",
+            2
+          ],
+          [
+            "0xd0e30db0",
+            1
+          ],
+          [
+            "0xcb3c28c7",
+            1
+          ]
+        ]
+      },
+      {
+        "period": "2018-04",
+        "n": 5,
+        "phishing": 0,
+        "benign": 5,
+        "phishing_rate": 0.0,
+        "top_phishing_categories": [
+          [
+            "Benign KOL",
+            5
+          ]
+        ],
+        "top_methods": [
+          [
+            "0x",
+            3
+          ],
+          [
+            "0xa9059cbb",
+            2
+          ]
+        ]
+      },
+      {
+        "period": "2018-05",
+        "n": 6,
+        "phishing": 0,
+        "benign": 6,
+        "phishing_rate": 0.0,
+        "top_phishing_categories": [
+          [
+            "Benign KOL",
+            6
+          ]
+        ],
+        "top_methods": [
+          [
+            "0x",
+            4
+          ],
+          [
+            "0xd0e30db0",
+            1
+          ],
+          [
+            "0xa9059cbb",
+            1
+          ]
+        ]
+      },
+      {
+        "period": "2018-06",
+        "n": 2,
+        "phishing": 0,
+        "benign": 2,
+        "phishing_rate": 0.0,
+        "top_phishing_categories": [
+          [
+            "Benign KOL",
+            2
+          ]
+        ],
+        "top_methods": [
+          [
+            "0xd0e30db0",
+            1
+          ],
+          [
+            "0xa9059cbb",
+            1
+          ]
+        ]
+      },
+      {
+        "period": "2018-07",
+        "n": 10,
+        "phishing": 0,
+        "benign": 10,
+        "phishing_rate": 0.0,
+        "top_phishing_categories": [
+          [
+            "Benign KOL",
+            10
+          ]
+        ],
+        "top_methods": [
+          [
+            "0x095ea7b3",
+            3
+          ],
+          [
+            "0xcabc6f14",
+            2
+          ],
+          [
+            "0xe36dd1f9",
+            1
+          ],
+          [
+            "0x8f929c4a",
+            1
+          ],
+          [
+            "0x15c64b61",
+            1
+          ],
+          [
+            "0xca02620a",
+            1
+          ],
+          [
+            "0xa9059cbb",
+            1
+          ]
+        ]
+      },
+      {
+        "period": "2018-08",
+        "n": 129,
+        "phishing": 0,
+        "benign": 129,
+        "phishing_rate": 0.0,
+        "top_phishing_categories": [
+          [
+            "Benign Developer",
+            127
+          ],
+          [
+            "Benign KOL",
+            2
+          ]
+        ],
+        "top_methods": [
+          [
+            "0x18178358",
+            118
+          ],
+          [
+            "0x5a686699",
+            7
+          ],
+          [
+            "0x",
+            3
+          ],
+          [
+            "0xa9059cbb",
+            1
+          ]
+        ]
+      },
+      {
+        "period": "2018-09",
+        "n": 5,
+        "phishing": 0,
+        "benign": 5,
+        "phishing_rate": 0.0,
+        "top_phishing_categories": [
+          [
+            "Benign KOL",
+            3
+          ],
+          [
+            "Benign Developer",
+            2
+          ]
+        ],
+        "top_methods": [
+          [
+            "0x",
+            2
+          ],
+          [
+            "0x7add0106",
+            1
+          ],
+          [
+            "0x65fae35e",
+            1
+          ],
+          [
+            "0x095ea7b3",
+            1
+          ]
+        ]
+      },
+      {
+        "period": "2018-10",
+        "n": 48,
+        "phishing": 0,
+        "benign": 48,
+        "phishing_rate": 0.0,
+        "top_phishing_categories": [
+          [
+            "Random Block Benign",
+            25
+          ],
+          [
+            "Benign KOL",
+            21
+          ],
+          [
+            "Benign Developer",
+            2
+          ]
+        ],
+        "top_methods": [
+          [
+            "0x",
+            17
+          ],
+          [
+            "0xa9059cbb",
+            12
+          ],
+          [
+            "0x2e1a7d4d",
+            3
+          ],
+          [
+            "0x095ea7b3",
+            3
+          ],
+          [
+            "0x440f19ba",
+            2
+          ],
+          [
+            "0xe1a6f014",
+            2
+          ],
+          [
+            "0x338b5dea",
+            2
+          ],
+          [
+            "0xb3b77a51",
+            1
+          ]
+        ]
+      },
+      {
+        "period": "2018-11",
+        "n": 14,
+        "phishing": 0,
+        "benign": 14,
+        "phishing_rate": 0.0,
+        "top_phishing_categories": [
+          [
+            "Benign KOL",
+            7
+          ],
+          [
+            "Benign Developer",
+            7
+          ]
+        ],
+        "top_methods": [
+          [
+            "0x",
+            6
+          ],
+          [
+            "0x1cff79cd",
+            2
+          ],
+          [
+            "0xe1a6f014",
+            2
+          ],
+          [
+            "0x5a686699",
+            2
+          ],
+          [
+            "0xd0e30db0",
+            1
+          ],
+          [
+            "0x40e58ee5",
+            1
+          ]
+        ]
+      },
+      {
+        "period": "2018-12",
+        "n": 7,
+        "phishing": 0,
+        "benign": 7,
+        "phishing_rate": 0.0,
+        "top_phishing_categories": [
+          [
+            "Benign Developer",
+            7
+          ]
+        ],
+        "top_methods": [
+          [
+            "0xbf7c734e",
+            7
+          ]
+        ]
+      },
+      {
+        "period": "2019-01",
+        "n": 59,
+        "phishing": 0,
+        "benign": 59,
+        "phishing_rate": 0.0,
+        "top_phishing_categories": [
+          [
+            "Benign Developer",
+            41
+          ],
+          [
+            "Benign KOL",
+            18
+          ]
+        ],
+        "top_methods": [
+          [
+            "0x40e58ee5",
+            41
+          ],
+          [
+            "0x095ea7b3",
+            6
+          ],
+          [
+            "0x492cc769",
+            5
+          ],
+          [
+            "0x95e3c50b",
+            4
+          ],
+          [
+            "0xa6f2ae3a",
+            2
+          ],
+          [
+            "0xa9059cbb",
+            1
+          ]
+        ]
+      },
+      {
+        "period": "2019-02",
+        "n": 39,
+        "phishing": 0,
+        "benign": 39,
+        "phishing_rate": 0.0,
+        "top_phishing_categories": [
+          [
+            "Benign Developer",
+            39
+          ]
+        ],
+        "top_methods": [
+          [
+            "0x40e58ee5",
+            36
+          ],
+          [
+            "0xbf7c734e",
+            1
+          ],
+          [
+            "0x07da68f5",
+            1
+          ],
+          [
+            "0x5123e1fa",
+            1
+          ]
+        ]
+      },
+      {
+        "period": "2019-03",
+        "n": 2,
+        "phishing": 0,
+        "benign": 2,
+        "phishing_rate": 0.0,
+        "top_phishing_categories": [
+          [
+            "Benign Developer",
+            2
+          ]
+        ],
+        "top_methods": [
+          [
+            "0x3c278bd5",
+            1
+          ],
+          [
+            "0x96d373e5",
+            1
+          ]
+        ]
+      },
+      {
+        "period": "2019-07",
+        "n": 114,
+        "phishing": 0,
+        "benign": 114,
+        "phishing_rate": 0.0,
+        "top_phishing_categories": [
+          [
+            "Benign Developer",
+            100
+          ],
+          [
+            "Benign KOL",
+            14
+          ]
+        ],
+        "top_methods": [
+          [
+            "0x1cff79cd",
+            30
+          ],
+          [
+            "0x1504460f",
+            29
+          ],
+          [
+            "0x18178358",
+            19
+          ],
+          [
+            "0xa9059cbb",
+            9
+          ],
+          [
+            "0x94318106",
+            5
+          ],
+          [
+            "0xcbeea68c",
+            4
+          ],
+          [
+            "0xf29c29c4",
+            4
+          ],
+          [
+            "0xa0712d68",
+            3
+          ]
+        ]
+      },
+      {
+        "period": "2019-08",
+        "n": 19,
+        "phishing": 0,
+        "benign": 19,
+        "phishing_rate": 0.0,
+        "top_phishing_categories": [
+          [
+            "Benign KOL",
+            10
+          ],
+          [
+            "Benign Developer",
+            9
+          ]
+        ],
+        "top_methods": [
+          [
+            "0x1cff79cd",
+            6
+          ],
+          [
+            "0x",
+            3
+          ],
+          [
+            "0xa0712d68",
+            2
+          ],
+          [
+            "0xa9059cbb",
+            2
+          ],
+          [
+            "0x095ea7b3",
+            2
+          ],
+          [
+            "0xdb006a75",
+            1
+          ],
+          [
+            "0xa67a6a45",
+            1
+          ],
+          [
+            "0x44e2a5a8",
+            1
+          ]
+        ]
+      },
+      {
+        "period": "2019-10",
+        "n": 65,
+        "phishing": 0,
+        "benign": 65,
+        "phishing_rate": 0.0,
+        "top_phishing_categories": [
+          [
+            "Benign Developer",
+            65
+          ]
+        ],
+        "top_methods": [
+          [
+            "0x1504460f",
+            20
+          ],
+          [
+            "0x1cff79cd",
+            16
+          ],
+          [
+            "0x18178358",
+            7
+          ],
+          [
+            "0xe2702fdc",
+            7
+          ],
+          [
+            "0x",
+            5
+          ],
+          [
+            "0xf29c29c4",
+            3
+          ],
+          [
+            "0xd381ba7c",
+            2
+          ],
+          [
+            "0x39010e3d",
+            1
+          ]
+        ]
+      },
+      {
+        "period": "2019-11",
+        "n": 2,
+        "phishing": 0,
+        "benign": 2,
+        "phishing_rate": 0.0,
+        "top_phishing_categories": [
+          [
+            "Benign Developer",
+            2
+          ]
+        ],
+        "top_methods": [
+          [
+            "0xbf7c734e",
+            2
+          ]
+        ]
+      },
+      {
+        "period": "2019-12",
+        "n": 7,
+        "phishing": 0,
+        "benign": 7,
+        "phishing_rate": 0.0,
+        "top_phishing_categories": [
+          [
+            "Benign KOL",
+            4
+          ],
+          [
+            "Benign Developer",
+            3
+          ]
+        ],
+        "top_methods": [
+          [
+            "0x96f62b9d",
+            4
+          ],
+          [
+            "0xdf133bca",
+            2
+          ],
+          [
+            "0x13af4035",
+            1
+          ]
+        ]
+      },
+      {
+        "period": "2020-01",
+        "n": 2,
+        "phishing": 0,
+        "benign": 2,
+        "phishing_rate": 0.0,
+        "top_phishing_categories": [
+          [
+            "Benign Developer",
+            2
+          ]
+        ],
+        "top_methods": [
+          [
+            "0xdf133bca",
+            2
+          ]
+        ]
+      },
+      {
+        "period": "2020-02",
+        "n": 14,
+        "phishing": 0,
+        "benign": 14,
+        "phishing_rate": 0.0,
+        "top_phishing_categories": [
+          [
+            "Benign Developer",
+            11
+          ],
+          [
+            "Benign KOL",
+            3
+          ]
+        ],
+        "top_methods": [
+          [
+            "0xdf133bca",
+            9
+          ],
+          [
+            "0x",
+            2
+          ],
+          [
+            "0x95e3c50b",
+            1
+          ],
+          [
+            "0x095ea7b3",
+            1
+          ],
+          [
+            "0xbf7c734e",
+            1
+          ]
+        ]
+      },
+      {
+        "period": "2020-03",
+        "n": 28,
+        "phishing": 0,
+        "benign": 28,
+        "phishing_rate": 0.0,
+        "top_phishing_categories": [
+          [
+            "Benign Developer",
+            28
+          ]
+        ],
+        "top_methods": [
+          [
+            "0xdf133bca",
+            20
+          ],
+          [
+            "0xd948d468",
+            5
+          ],
+          [
+            "0x",
+            2
+          ],
+          [
+            "0xbf7c734e",
+            1
+          ]
+        ]
+      },
+      {
+        "period": "2020-04",
+        "n": 5,
+        "phishing": 0,
+        "benign": 5,
+        "phishing_rate": 0.0,
+        "top_phishing_categories": [
+          [
+            "Benign Developer",
+            5
+          ]
+        ],
+        "top_methods": [
+          [
+            "0xdf133bca",
+            4
+          ],
+          [
+            "0xfbabdebd",
+            1
+          ]
+        ]
+      },
+      {
+        "period": "2020-05",
+        "n": 9,
+        "phishing": 0,
+        "benign": 9,
+        "phishing_rate": 0.0,
+        "top_phishing_categories": [
+          [
+            "Benign Developer",
+            8
+          ],
+          [
+            "Benign KOL",
+            1
+          ]
+        ],
+        "top_methods": [
+          [
+            "0xdf133bca",
+            4
+          ],
+          [
+            "0x",
+            2
+          ],
+          [
+            "0xd711f46b",
+            1
+          ],
+          [
+            "0x9c52a7f1",
+            1
+          ],
+          [
+            "0x1504460f",
+            1
+          ]
+        ]
+      },
+      {
+        "period": "2020-06",
+        "n": 221,
+        "phishing": 0,
+        "benign": 221,
+        "phishing_rate": 0.0,
+        "top_phishing_categories": [
+          [
+            "Random Block Benign",
+            197
+          ],
+          [
+            "Benign KOL",
+            15
+          ],
+          [
+            "Benign Developer",
+            9
+          ]
+        ],
+        "top_methods": [
+          [
+            "0xa9059cbb",
+            95
+          ],
+          [
+            "0x",
+            67
+          ],
+          [
+            "0x7ff36ab5",
+            7
+          ],
+          [
+            "0x4fe678aa",
+            6
+          ],
+          [
+            "0xdf133bca",
+            5
+          ],
+          [
+            "0xd948d468",
+            4
+          ],
+          [
+            "0xdedfc1f1",
+            3
+          ],
+          [
+            "0x0e752702",
+            2
+          ]
+        ]
+      },
+      {
+        "period": "2020-07",
+        "n": 211,
+        "phishing": 0,
+        "benign": 211,
+        "phishing_rate": 0.0,
+        "top_phishing_categories": [
+          [
+            "Benign KOL",
+            179
+          ],
+          [
+            "Benign Developer",
+            32
+          ]
+        ],
+        "top_methods": [
+          [
+            "0x095ea7b3",
+            35
+          ],
+          [
+            "0xdf133bca",
+            23
+          ],
+          [
+            "0xa9059cbb",
+            15
+          ],
+          [
+            "0x38ed1739",
+            11
+          ],
+          [
+            "0x1cff79cd",
+            11
+          ],
+          [
+            "0x3d18b912",
+            11
+          ],
+          [
+            "0xd948d468",
+            9
+          ],
+          [
+            "0x26c3d394",
+            8
+          ]
+        ]
+      },
+      {
+        "period": "2020-08",
+        "n": 625,
+        "phishing": 0,
+        "benign": 625,
+        "phishing_rate": 0.0,
+        "top_phishing_categories": [
+          [
+            "Benign KOL",
+            620
+          ],
+          [
+            "Benign Developer",
+            5
+          ]
+        ],
+        "top_methods": [
+          [
+            "0x095ea7b3",
+            99
+          ],
+          [
+            "0xa9059cbb",
+            40
+          ],
+          [
+            "0xe2bbb158",
+            40
+          ],
+          [
+            "0x18cbafe5",
+            37
+          ],
+          [
+            "0x38ed1739",
+            34
+          ],
+          [
+            "0xa694fc3a",
+            31
+          ],
+          [
+            "0x3d18b912",
+            28
+          ],
+          [
+            "0x7ff36ab5",
+            27
+          ]
+        ]
+      },
+      {
+        "period": "2020-09",
+        "n": 291,
+        "phishing": 0,
+        "benign": 291,
+        "phishing_rate": 0.0,
+        "top_phishing_categories": [
+          [
+            "Benign KOL",
+            236
+          ],
+          [
+            "Benign Developer",
+            55
+          ]
+        ],
+        "top_methods": [
+          [
+            "0x095ea7b3",
+            60
+          ],
+          [
+            "0xa9059cbb",
+            24
+          ],
+          [
+            "0x",
+            13
+          ],
+          [
+            "0x65fae35e",
+            10
+          ],
+          [
+            "0x9c52a7f1",
+            10
+          ],
+          [
+            "0xf305d719",
+            9
+          ],
+          [
+            "0x7ff36ab5",
+            9
+          ],
+          [
+            "0xcf7a1d77",
+            9
+          ]
+        ]
+      },
+      {
+        "period": "2020-10",
+        "n": 516,
+        "phishing": 0,
+        "benign": 516,
+        "phishing_rate": 0.0,
+        "top_phishing_categories": [
+          [
+            "Benign KOL",
+            385
+          ],
+          [
+            "Benign Developer",
+            131
+          ]
+        ],
+        "top_methods": [
+          [
+            "0x095ea7b3",
+            93
+          ],
+          [
+            "0xca446dd9",
+            88
+          ],
+          [
+            "0x38ed1739",
+            29
+          ],
+          [
+            "0xa9059cbb",
+            19
+          ],
+          [
+            "0xdbda7e7d",
+            16
+          ],
+          [
+            "0x",
+            15
+          ],
+          [
+            "0xdf133bca",
+            15
+          ],
+          [
+            "0xf88309d7",
+            14
+          ]
+        ]
+      },
+      {
+        "period": "2020-11",
+        "n": 312,
+        "phishing": 0,
+        "benign": 312,
+        "phishing_rate": 0.0,
+        "top_phishing_categories": [
+          [
+            "Benign KOL",
+            226
+          ],
+          [
+            "Benign Developer",
+            86
+          ]
+        ],
+        "top_methods": [
+          [
+            "0x095ea7b3",
+            68
+          ],
+          [
+            "0xb889bec4",
+            13
+          ],
+          [
+            "0x72eb293d",
+            12
+          ],
+          [
+            "0x8cd5cc60",
+            10
+          ],
+          [
+            "0x441a3e70",
+            9
+          ],
+          [
+            "0x18cbafe5",
+            9
+          ],
+          [
+            "0xf305d719",
+            9
+          ],
+          [
+            "0x",
+            9
+          ]
+        ]
+      },
+      {
+        "period": "2020-12",
+        "n": 264,
+        "phishing": 0,
+        "benign": 264,
+        "phishing_rate": 0.0,
+        "top_phishing_categories": [
+          [
+            "Benign Developer",
+            140
+          ],
+          [
+            "Benign KOL",
+            124
+          ]
+        ],
+        "top_methods": [
+          [
+            "0x095ea7b3",
+            32
+          ],
+          [
+            "0x",
+            22
+          ],
+          [
+            "0xdf133bca",
+            16
+          ],
+          [
+            "0x0e89439b",
+            14
+          ],
+          [
+            "0xde5f6268",
+            14
+          ],
+          [
+            "0xa9059cbb",
+            13
+          ],
+          [
+            "0xf6162b01",
+            10
+          ],
+          [
+            "0x18cbafe5",
+            9
+          ]
+        ]
+      },
+      {
+        "period": "2021-01",
+        "n": 659,
+        "phishing": 0,
+        "benign": 659,
+        "phishing_rate": 0.0,
+        "top_phishing_categories": [
+          [
+            "Benign KOL",
+            590
+          ],
+          [
+            "Benign Developer",
+            69
+          ]
+        ],
+        "top_methods": [
+          [
+            "0x095ea7b3",
+            99
+          ],
+          [
+            "0xb6b55f25",
+            36
+          ],
+          [
+            "0x3d18b912",
+            29
+          ],
+          [
+            "0x38ed1739",
+            25
+          ],
+          [
+            "0x",
+            22
+          ],
+          [
+            "0x1cff79cd",
+            18
+          ],
+          [
+            "0xa694fc3a",
+            18
+          ],
+          [
+            "0xdf133bca",
+            18
+          ]
+        ]
+      },
+      {
+        "period": "2021-02",
+        "n": 157,
+        "phishing": 0,
+        "benign": 157,
+        "phishing_rate": 0.0,
+        "top_phishing_categories": [
+          [
+            "Benign KOL",
+            140
+          ],
+          [
+            "Benign Developer",
+            17
+          ]
+        ],
+        "top_methods": [
+          [
+            "0x095ea7b3",
+            26
+          ],
+          [
+            "0xa9059cbb",
+            18
+          ],
+          [
+            "0x3d18b912",
+            12
+          ],
+          [
+            "0x34b0793b",
+            11
+          ],
+          [
+            "0x38ed1739",
+            9
+          ],
+          [
+            "0x",
+            8
+          ],
+          [
+            "0xb6b55f25",
+            6
+          ],
+          [
+            "0xa694fc3a",
+            5
+          ]
+        ]
+      },
+      {
+        "period": "2021-03",
+        "n": 93,
+        "phishing": 0,
+        "benign": 93,
+        "phishing_rate": 0.0,
+        "top_phishing_categories": [
+          [
+            "Benign KOL",
+            79
+          ],
+          [
+            "Benign Developer",
+            14
+          ]
+        ],
+        "top_methods": [
+          [
+            "0x095ea7b3",
+            14
+          ],
+          [
+            "0xa9059cbb",
+            7
+          ],
+          [
+            "0xae169a50",
+            6
+          ],
+          [
+            "0x7ff36ab5",
+            6
+          ],
+          [
+            "0xe2bbb158",
+            5
+          ],
+          [
+            "0x",
+            4
+          ],
+          [
+            "0xd0e30db0",
+            4
+          ],
+          [
+            "0xf305d719",
+            4
+          ]
+        ]
+      },
+      {
+        "period": "2021-04",
+        "n": 282,
+        "phishing": 0,
+        "benign": 282,
+        "phishing_rate": 0.0,
+        "top_phishing_categories": [
+          [
+            "Random Block Benign",
+            171
+          ],
+          [
+            "Benign KOL",
+            86
+          ],
+          [
+            "Benign Developer",
+            25
+          ]
+        ],
+        "top_methods": [
+          [
+            "0x",
+            62
+          ],
+          [
+            "0xa9059cbb",
+            61
+          ],
+          [
+            "0x38ed1739",
+            26
+          ],
+          [
+            "0x18cbafe5",
+            16
+          ],
+          [
+            "0x095ea7b3",
+            15
+          ],
+          [
+            "0x7ff36ab5",
+            13
+          ],
+          [
+            "0x6a761202",
+            6
+          ],
+          [
+            "0xdf133bca",
+            6
+          ]
+        ]
+      },
+      {
+        "period": "2021-05",
+        "n": 90,
+        "phishing": 0,
+        "benign": 90,
+        "phishing_rate": 0.0,
+        "top_phishing_categories": [
+          [
+            "Benign KOL",
+            52
+          ],
+          [
+            "Benign Developer",
+            38
+          ]
+        ],
+        "top_methods": [
+          [
+            "0xab9c4b5d",
+            9
+          ],
+          [
+            "0xa9059cbb",
+            8
+          ],
+          [
+            "0xdf133bca",
+            8
+          ],
+          [
+            "0x095ea7b3",
+            7
+          ],
+          [
+            "0x",
+            6
+          ],
+          [
+            "0xc6a6cf20",
+            6
+          ],
+          [
+            "0x4faa8a26",
+            4
+          ],
+          [
+            "0xa6417ed6",
+            3
+          ]
+        ]
+      },
+      {
+        "period": "2021-06",
+        "n": 141,
+        "phishing": 0,
+        "benign": 141,
+        "phishing_rate": 0.0,
+        "top_phishing_categories": [
+          [
+            "Benign Developer",
+            79
+          ],
+          [
+            "Benign KOL",
+            62
+          ]
+        ],
+        "top_methods": [
+          [
+            "0x095ea7b3",
+            29
+          ],
+          [
+            "0x414bf389",
+            15
+          ],
+          [
+            "0xc4d66de8",
+            8
+          ],
+          [
+            "0xa9059cbb",
+            7
+          ],
+          [
+            "0xac9650d8",
+            5
+          ],
+          [
+            "0x68180381",
+            4
+          ],
+          [
+            "0xd38bfff4",
+            4
+          ],
+          [
+            "0x7c025200",
+            3
+          ]
+        ]
+      },
+      {
+        "period": "2021-07",
+        "n": 108,
+        "phishing": 0,
+        "benign": 108,
+        "phishing_rate": 0.0,
+        "top_phishing_categories": [
+          [
+            "Benign KOL",
+            67
+          ],
+          [
+            "Benign Developer",
+            41
+          ]
+        ],
+        "top_methods": [
+          [
+            "0x095ea7b3",
+            15
+          ],
+          [
+            "0xa9059cbb",
+            10
+          ],
+          [
+            "0xe3dec8fb",
+            8
+          ],
+          [
+            "0x",
+            7
+          ],
+          [
+            "0x6a761202",
+            7
+          ],
+          [
+            "0x3805550f",
+            5
+          ],
+          [
+            "0x4faa8a26",
+            5
+          ],
+          [
+            "0xdf133bca",
+            5
+          ]
+        ]
+      },
+      {
+        "period": "2021-08",
+        "n": 71,
+        "phishing": 0,
+        "benign": 71,
+        "phishing_rate": 0.0,
+        "top_phishing_categories": [
+          [
+            "Benign KOL",
+            36
+          ],
+          [
+            "Benign Developer",
+            35
+          ]
+        ],
+        "top_methods": [
+          [
+            "0x095ea7b3",
+            7
+          ],
+          [
+            "0xfc0527e4",
+            7
+          ],
+          [
+            "0xc4d66de8",
+            4
+          ],
+          [
+            "0xdf133bca",
+            4
+          ],
+          [
+            "0x219f5d17",
+            3
+          ],
+          [
+            "0x",
+            3
+          ],
+          [
+            "0x3805550f",
+            3
+          ],
+          [
+            "0xa9059cbb",
+            3
+          ]
+        ]
+      },
+      {
+        "period": "2021-09",
+        "n": 212,
+        "phishing": 0,
+        "benign": 212,
+        "phishing_rate": 0.0,
+        "top_phishing_categories": [
+          [
+            "Benign Developer",
+            134
+          ],
+          [
+            "Benign KOL",
+            78
+          ]
+        ],
+        "top_methods": [
+          [
+            "0x6e899550",
+            55
+          ],
+          [
+            "0xca446dd9",
+            27
+          ],
+          [
+            "0xabfdcced",
+            26
+          ],
+          [
+            "0xa9059cbb",
+            14
+          ],
+          [
+            "0x095ea7b3",
+            12
+          ],
+          [
+            "0x1cff79cd",
+            7
+          ],
+          [
+            "0x",
+            6
+          ],
+          [
+            "0x3805550f",
+            5
+          ]
+        ]
+      },
+      {
+        "period": "2021-10",
+        "n": 409,
+        "phishing": 0,
+        "benign": 409,
+        "phishing_rate": 0.0,
+        "top_phishing_categories": [
+          [
+            "Benign KOL",
+            390
+          ],
+          [
+            "Benign Developer",
+            19
+          ]
+        ],
+        "top_methods": [
+          [
+            "0x095ea7b3",
+            62
+          ],
+          [
+            "0x38ed1739",
+            50
+          ],
+          [
+            "0xa9059cbb",
+            46
+          ],
+          [
+            "0x18cbafe5",
+            20
+          ],
+          [
+            "0x",
+            13
+          ],
+          [
+            "0xf305d719",
+            11
+          ],
+          [
+            "0xb6b55f25",
+            9
+          ],
+          [
+            "0x7c025200",
+            9
+          ]
+        ]
+      },
+      {
+        "period": "2021-11",
+        "n": 350,
+        "phishing": 0,
+        "benign": 350,
+        "phishing_rate": 0.0,
+        "top_phishing_categories": [
+          [
+            "Benign KOL",
+            314
+          ],
+          [
+            "Benign Developer",
+            36
+          ]
+        ],
+        "top_methods": [
+          [
+            "0xa9059cbb",
+            58
+          ],
+          [
+            "0x095ea7b3",
+            35
+          ],
+          [
+            "0x38ed1739",
+            25
+          ],
+          [
+            "0x",
+            18
+          ],
+          [
+            "0x7c025200",
+            14
+          ],
+          [
+            "0x18cbafe5",
+            11
+          ],
+          [
+            "0xc04b8d59",
+            10
+          ],
+          [
+            "0x8803dbee",
+            10
+          ]
+        ]
+      },
+      {
+        "period": "2021-12",
+        "n": 224,
+        "phishing": 0,
+        "benign": 224,
+        "phishing_rate": 0.0,
+        "top_phishing_categories": [
+          [
+            "Benign KOL",
+            216
+          ],
+          [
+            "Benign Developer",
+            8
+          ]
+        ],
+        "top_methods": [
+          [
+            "0x095ea7b3",
+            30
+          ],
+          [
+            "0xa9059cbb",
+            15
+          ],
+          [
+            "0x38ed1739",
+            14
+          ],
+          [
+            "0x5ae401dc",
+            9
+          ],
+          [
+            "0x7050ccd9",
+            8
+          ],
+          [
+            "0xf14fcbc8",
+            7
+          ],
+          [
+            "0xf7a16963",
+            7
+          ],
+          [
+            "0xac9650d8",
+            7
+          ]
+        ]
+      },
+      {
+        "period": "2022-01",
+        "n": 208,
+        "phishing": 0,
+        "benign": 208,
+        "phishing_rate": 0.0,
+        "top_phishing_categories": [
+          [
+            "Benign KOL",
+            205
+          ],
+          [
+            "Benign Developer",
+            3
+          ]
+        ],
+        "top_methods": [
+          [
+            "0x095ea7b3",
+            32
+          ],
+          [
+            "0x",
+            26
+          ],
+          [
+            "0xab834bab",
+            20
+          ],
+          [
+            "0xa9059cbb",
+            17
+          ],
+          [
+            "0x0e752702",
+            7
+          ],
+          [
+            "0x206635e7",
+            7
+          ],
+          [
+            "0xa22cb465",
+            6
+          ],
+          [
+            "0x0f3b31b2",
+            5
+          ]
+        ]
+      },
+      {
+        "period": "2022-02",
+        "n": 22,
+        "phishing": 0,
+        "benign": 22,
+        "phishing_rate": 0.0,
+        "top_phishing_categories": [
+          [
+            "Benign KOL",
+            20
+          ],
+          [
+            "Benign Developer",
+            2
+          ]
+        ],
+        "top_methods": [
+          [
+            "0x",
+            6
+          ],
+          [
+            "0x54840d1a",
+            2
+          ],
+          [
+            "0xaad3ec96",
+            2
+          ],
+          [
+            "0xab834bab",
+            1
+          ],
+          [
+            "0x9a408321",
+            1
+          ],
+          [
+            "0x1c1c6fe5",
+            1
+          ],
+          [
+            "0xa1903eab",
+            1
+          ],
+          [
+            "0x77329f35",
+            1
+          ]
+        ]
+      },
+      {
+        "period": "2022-03",
+        "n": 39,
+        "phishing": 0,
+        "benign": 39,
+        "phishing_rate": 0.0,
+        "top_phishing_categories": [
+          [
+            "Benign KOL",
+            36
+          ],
+          [
+            "Benign Developer",
+            3
+          ]
+        ],
+        "top_methods": [
+          [
+            "0x",
+            10
+          ],
+          [
+            "0x095ea7b3",
+            6
+          ],
+          [
+            "0xa9059cbb",
+            5
+          ],
+          [
+            "0xac9650d8",
+            1
+          ],
+          [
+            "0xe1fc8691",
+            1
+          ],
+          [
+            "0x9c211639",
+            1
+          ],
+          [
+            "0x9d7de6b3",
+            1
+          ],
+          [
+            "0x0f5287b0",
+            1
+          ]
+        ]
+      },
+      {
+        "period": "2022-04",
+        "n": 62,
+        "phishing": 0,
+        "benign": 62,
+        "phishing_rate": 0.0,
+        "top_phishing_categories": [
+          [
+            "Benign KOL",
+            60
+          ],
+          [
+            "Benign Developer",
+            2
+          ]
+        ],
+        "top_methods": [
+          [
+            "0x",
+            13
+          ],
+          [
+            "0x095ea7b3",
+            9
+          ],
+          [
+            "0xa9059cbb",
+            7
+          ],
+          [
+            "0x5ae401dc",
+            3
+          ],
+          [
+            "0xab834bab",
+            3
+          ],
+          [
+            "0x911e65fa",
+            2
+          ],
+          [
+            "0x4faa8a26",
+            2
+          ],
+          [
+            "0x09eb2728",
+            2
+          ]
+        ]
+      },
+      {
+        "period": "2022-05",
+        "n": 108,
+        "phishing": 0,
+        "benign": 108,
+        "phishing_rate": 0.0,
+        "top_phishing_categories": [
+          [
+            "Benign KOL",
+            74
+          ],
+          [
+            "Benign Developer",
+            34
+          ]
+        ],
+        "top_methods": [
+          [
+            "0x",
+            15
+          ],
+          [
+            "0x095ea7b3",
+            12
+          ],
+          [
+            "0xab834bab",
+            10
+          ],
+          [
+            "0xa22cb465",
+            5
+          ],
+          [
+            "0xa9059cbb",
+            4
+          ],
+          [
+            "0x1e83409a",
+            4
+          ],
+          [
+            "0x1cff79cd",
+            3
+          ],
+          [
+            "0x1a4d01d2",
+            3
+          ]
+        ]
+      },
+      {
+        "period": "2022-06",
+        "n": 56,
+        "phishing": 3,
+        "benign": 53,
+        "phishing_rate": 0.05357142857142857,
+        "top_phishing_categories": [
+          [
+            "Benign KOL",
+            39
+          ],
+          [
+            "Benign Developer",
+            14
+          ],
+          [
+            "Approve",
+            3
+          ]
+        ],
+        "top_methods": [
+          [
+            "0x",
+            8
+          ],
+          [
+            "0x095ea7b3",
+            7
+          ],
+          [
+            "0xa0712d68",
+            7
+          ],
+          [
+            "0xac9650d8",
+            4
+          ],
+          [
+            "0x6a761202",
+            4
+          ],
+          [
+            "0x23b872dd",
+            3
+          ],
+          [
+            "0xa9059cbb",
+            3
+          ],
+          [
+            "0xdf133bca",
+            3
+          ]
+        ]
+      },
+      {
+        "period": "2022-07",
+        "n": 99,
+        "phishing": 0,
+        "benign": 99,
+        "phishing_rate": 0.0,
+        "top_phishing_categories": [
+          [
+            "Benign KOL",
+            95
+          ],
+          [
+            "Benign Developer",
+            4
+          ]
+        ],
+        "top_methods": [
+          [
+            "0xa0712d68",
+            22
+          ],
+          [
+            "0x095ea7b3",
+            9
+          ],
+          [
+            "0xfb0f3ee1",
+            9
+          ],
+          [
+            "0x4b11faaf",
+            4
+          ],
+          [
+            "0x5ae401dc",
+            4
+          ],
+          [
+            "0xac9650d8",
+            3
+          ],
+          [
+            "0x414bf389",
+            3
+          ],
+          [
+            "0xeedb7487",
+            2
+          ]
+        ]
+      },
+      {
+        "period": "2022-08",
+        "n": 99,
+        "phishing": 0,
+        "benign": 99,
+        "phishing_rate": 0.0,
+        "top_phishing_categories": [
+          [
+            "Benign KOL",
+            91
+          ],
+          [
+            "Benign Developer",
+            8
+          ]
+        ],
+        "top_methods": [
+          [
+            "0x095ea7b3",
+            9
+          ],
+          [
+            "0x",
+            8
+          ],
+          [
+            "0xa9059cbb",
+            8
+          ],
+          [
+            "0x7c025200",
+            6
+          ],
+          [
+            "0x1c4b774b",
+            5
+          ],
+          [
+            "0xfb0f3ee1",
+            5
+          ],
+          [
+            "0xac9650d8",
+            3
+          ],
+          [
+            "0x415565b0",
+            3
+          ]
+        ]
+      },
+      {
+        "period": "2022-09",
+        "n": 66,
+        "phishing": 0,
+        "benign": 66,
+        "phishing_rate": 0.0,
+        "top_phishing_categories": [
+          [
+            "Benign KOL",
+            52
+          ],
+          [
+            "Benign Developer",
+            14
+          ]
+        ],
+        "top_methods": [
+          [
+            "0x1cff79cd",
+            7
+          ],
+          [
+            "0x095ea7b3",
+            6
+          ],
+          [
+            "0x",
+            6
+          ],
+          [
+            "0xeb937aeb",
+            5
+          ],
+          [
+            "0xedbdf5e2",
+            4
+          ],
+          [
+            "0x13416bc4",
+            4
+          ],
+          [
+            "0x7c025200",
+            3
+          ],
+          [
+            "0x2e95b6c8",
+            3
+          ]
+        ]
+      },
+      {
+        "period": "2022-10",
+        "n": 58,
+        "phishing": 0,
+        "benign": 58,
+        "phishing_rate": 0.0,
+        "top_phishing_categories": [
+          [
+            "Benign KOL",
+            51
+          ],
+          [
+            "Benign Developer",
+            7
+          ]
+        ],
+        "top_methods": [
+          [
+            "0x",
+            14
+          ],
+          [
+            "0xa9059cbb",
+            6
+          ],
+          [
+            "0x414bf389",
+            3
+          ],
+          [
+            "0xeedb7487",
+            3
+          ],
+          [
+            "0xac9650d8",
+            3
+          ],
+          [
+            "0x9ff054df",
+            2
+          ],
+          [
+            "0xf2c298be",
+            2
+          ],
+          [
+            "0xa22cb465",
+            2
+          ]
+        ]
+      },
+      {
+        "period": "2022-11",
+        "n": 219,
+        "phishing": 9,
+        "benign": 210,
+        "phishing_rate": 0.0410958904109589,
+        "top_phishing_categories": [
+          [
+            "Benign KOL",
+            194
+          ],
+          [
+            "Benign Developer",
+            16
+          ],
+          [
+            "Wallet function",
+            9
+          ]
+        ],
+        "top_methods": [
+          [
+            "0x095ea7b3",
+            57
+          ],
+          [
+            "0x",
+            18
+          ],
+          [
+            "0xa9059cbb",
+            10
+          ],
+          [
+            "0x5fba79f5",
+            9
+          ],
+          [
+            "0xe8eda9df",
+            8
+          ],
+          [
+            "0x3049105d",
+            8
+          ],
+          [
+            "0xa0712d68",
+            7
+          ],
+          [
+            "0xa22cb465",
+            6
+          ]
+        ]
+      },
+      {
+        "period": "2022-12",
+        "n": 134,
+        "phishing": 33,
+        "benign": 101,
+        "phishing_rate": 0.2462686567164179,
+        "top_phishing_categories": [
+          [
+            "Benign Developer",
+            62
+          ],
+          [
+            "Benign KOL",
+            39
+          ],
+          [
+            "Free buy order",
+            29
+          ],
+          [
+            "Wallet function",
+            4
+          ]
+        ],
+        "top_methods": [
+          [
+            "0xa8174404",
+            29
+          ],
+          [
+            "0x00000000",
+            25
+          ],
+          [
+            "0xa9059cbb",
+            7
+          ],
+          [
+            "0xf2fde38b",
+            6
+          ],
+          [
+            "0x5fba79f5",
+            4
+          ],
+          [
+            "0x381b4682",
+            4
+          ],
+          [
+            "0x",
+            3
+          ],
+          [
+            "0x12aa3caf",
+            3
+          ]
+        ]
+      },
+      {
+        "period": "2023-01",
+        "n": 204,
+        "phishing": 21,
+        "benign": 183,
+        "phishing_rate": 0.10294117647058823,
+        "top_phishing_categories": [
+          [
+            "Benign KOL",
+            148
+          ],
+          [
+            "Benign Developer",
+            35
+          ],
+          [
+            "Approve",
+            12
+          ],
+          [
+            "Permit",
+            7
+          ],
+          [
+            "Free buy order",
+            2
+          ]
+        ],
+        "top_methods": [
+          [
+            "0x",
+            20
+          ],
+          [
+            "0x23b872dd",
+            19
+          ],
+          [
+            "0xa9059cbb",
+            18
+          ],
+          [
+            "0x095ea7b3",
+            17
+          ],
+          [
+            "0xac9650d8",
+            7
+          ],
+          [
+            "0x88316456",
+            7
+          ],
+          [
+            "0x20a325d0",
+            6
+          ],
+          [
+            "0xa22cb465",
+            6
+          ]
+        ]
+      },
+      {
+        "period": "2023-02",
+        "n": 640,
+        "phishing": 525,
+        "benign": 115,
+        "phishing_rate": 0.8203125,
+        "top_phishing_categories": [
+          [
+            "SetApproveForAll",
+            126
+          ],
+          [
+            "Approve",
+            109
+          ],
+          [
+            "Wallet function",
+            109
+          ],
+          [
+            "Free buy order",
+            88
+          ],
+          [
+            "Permit",
+            87
+          ],
+          [
+            "Benign KOL",
+            75
+          ],
+          [
+            "Benign Developer",
+            40
+          ],
+          [
+            "Dust value transfer",
+            6
+          ]
+        ],
+        "top_methods": [
+          [
+            "0x23b872dd",
+            231
+          ],
+          [
+            "0x5fba79f5",
+            109
+          ],
+          [
+            "0x42842e0e",
+            91
+          ],
+          [
+            "0xa8174404",
+            88
+          ],
+          [
+            "0xa9059cbb",
+            14
+          ],
+          [
+            "0x",
+            6
+          ],
+          [
+            "0x12aa3caf",
+            6
+          ],
+          [
+            "0x1cff79cd",
+            5
+          ]
+        ]
+      },
+      {
+        "period": "2023-03",
+        "n": 764,
+        "phishing": 601,
+        "benign": 163,
+        "phishing_rate": 0.7866492146596858,
+        "top_phishing_categories": [
+          [
+            "Approve",
+            185
+          ],
+          [
+            "Permit",
+            152
+          ],
+          [
+            "Benign KOL",
+            83
+          ],
+          [
+            "Benign Developer",
+            80
+          ],
+          [
+            "SetApproveForAll",
+            70
+          ],
+          [
+            "Airdrop function",
+            67
+          ],
+          [
+            "Wallet function",
+            61
+          ],
+          [
+            "Free buy order",
+            50
+          ]
+        ],
+        "top_methods": [
+          [
+            "0x23b872dd",
+            373
+          ],
+          [
+            "0x5fba79f5",
+            61
+          ],
+          [
+            "0xa8174404",
+            44
+          ],
+          [
+            "0x4e71d92d",
+            43
+          ],
+          [
+            "0x42842e0e",
+            33
+          ],
+          [
+            "0xef5cfb8c",
+            24
+          ],
+          [
+            "0xa9059cbb",
+            23
+          ],
+          [
+            "0x6a761202",
+            13
+          ]
+        ]
+      },
+      {
+        "period": "2023-04",
+        "n": 902,
+        "phishing": 751,
+        "benign": 151,
+        "phishing_rate": 0.8325942350332595,
+        "top_phishing_categories": [
+          [
+            "Wallet function",
+            346
+          ],
+          [
+            "Approve",
+            125
+          ],
+          [
+            "SetApproveForAll",
+            124
+          ],
+          [
+            "Benign KOL",
+            78
+          ],
+          [
+            "Benign Developer",
+            73
+          ],
+          [
+            "Permit",
+            70
+          ],
+          [
+            "Free buy order",
+            33
+          ],
+          [
+            "Fake token transfer",
+            31
+          ]
+        ],
+        "top_methods": [
+          [
+            "0x5fba79f5",
+            278
+          ],
+          [
+            "0x23b872dd",
+            227
+          ],
+          [
+            "0x42842e0e",
+            89
+          ],
+          [
+            "0xaf347b61",
+            68
+          ],
+          [
+            "0xa9059cbb",
+            54
+          ],
+          [
+            "0xa8174404",
+            30
+          ],
+          [
+            "0x",
+            11
+          ],
+          [
+            "0xa22cb465",
+            10
+          ]
+        ]
+      },
+      {
+        "period": "2023-05",
+        "n": 741,
+        "phishing": 585,
+        "benign": 156,
+        "phishing_rate": 0.7894736842105263,
+        "top_phishing_categories": [
+          [
+            "Wallet function",
+            157
+          ],
+          [
+            "Permit",
+            142
+          ],
+          [
+            "Approve",
+            135
+          ],
+          [
+            "Benign Developer",
+            105
+          ],
+          [
+            "Free buy order",
+            65
+          ],
+          [
+            "Benign KOL",
+            51
+          ],
+          [
+            "Airdrop function",
+            50
+          ],
+          [
+            "SetApproveForAll",
+            27
+          ]
+        ],
+        "top_methods": [
+          [
+            "0x23b872dd",
+            230
+          ],
+          [
+            "0x5fba79f5",
+            104
+          ],
+          [
+            "0xa8174404",
+            61
+          ],
+          [
+            "0xaf347b61",
+            53
+          ],
+          [
+            "0xef5cfb8c",
+            39
+          ],
+          [
+            "0x36c78516",
+            31
+          ],
+          [
+            "0x42842e0e",
+            27
+          ],
+          [
+            "0x4783f0ef",
+            23
+          ]
+        ]
+      },
+      {
+        "period": "2023-06",
+        "n": 1096,
+        "phishing": 774,
+        "benign": 322,
+        "phishing_rate": 0.7062043795620438,
+        "top_phishing_categories": [
+          [
+            "Approve",
+            231
+          ],
+          [
+            "Benign KOL",
+            169
+          ],
+          [
+            "Airdrop function",
+            144
+          ],
+          [
+            "Random Block Benign",
+            106
+          ],
+          [
+            "Permit",
+            101
+          ],
+          [
+            "Free buy order",
+            96
+          ],
+          [
+            "SetApproveForAll",
+            63
+          ],
+          [
+            "Benign Developer",
+            47
+          ]
+        ],
+        "top_methods": [
+          [
+            "0x23b872dd",
+            299
+          ],
+          [
+            "0xa8174404",
+            75
+          ],
+          [
+            "0xa9059cbb",
+            75
+          ],
+          [
+            "0xef5cfb8c",
+            66
+          ],
+          [
+            "0x42842e0e",
+            56
+          ],
+          [
+            "0x",
+            53
+          ],
+          [
+            "0x79372f9a",
+            49
+          ],
+          [
+            "0x3659cfe6",
+            39
+          ]
+        ]
+      },
+      {
+        "period": "2023-07",
+        "n": 1108,
+        "phishing": 350,
+        "benign": 758,
+        "phishing_rate": 0.315884476534296,
+        "top_phishing_categories": [
+          [
+            "Benign KOL",
+            692
+          ],
+          [
+            "Approve",
+            135
+          ],
+          [
+            "Airdrop function",
+            81
+          ],
+          [
+            "Benign Developer",
+            66
+          ],
+          [
+            "Permit",
+            55
+          ],
+          [
+            "SetApproveForAll",
+            32
+          ],
+          [
+            "Free buy order",
+            15
+          ],
+          [
+            "Wallet function",
+            13
+          ]
+        ],
+        "top_methods": [
+          [
+            "0x23b872dd",
+            208
+          ],
+          [
+            "0x095ea7b3",
+            120
+          ],
+          [
+            "0xa9059cbb",
+            72
+          ],
+          [
+            "0x79372f9a",
+            36
+          ],
+          [
+            "0x",
+            29
+          ],
+          [
+            "0x0502b1c5",
+            25
+          ],
+          [
+            "0x3158952e",
+            24
+          ],
+          [
+            "0x3593564c",
+            19
+          ]
+        ]
+      },
+      {
+        "period": "2023-08",
+        "n": 1708,
+        "phishing": 800,
+        "benign": 908,
+        "phishing_rate": 0.468384074941452,
+        "top_phishing_categories": [
+          [
+            "Benign KOL",
+            888
+          ],
+          [
+            "Airdrop function",
+            294
+          ],
+          [
+            "Approve",
+            191
+          ],
+          [
+            "Permit",
+            144
+          ],
+          [
+            "Wallet function",
+            67
+          ],
+          [
+            "Proxy upgrade",
+            27
+          ],
+          [
+            "Zero value transfer",
+            23
+          ],
+          [
+            "SetApproveForAll",
+            22
+          ]
+        ],
+        "top_methods": [
+          [
+            "0x23b872dd",
+            305
+          ],
+          [
+            "0x3158952e",
+            189
+          ],
+          [
+            "0x095ea7b3",
+            143
+          ],
+          [
+            "0xa9059cbb",
+            112
+          ],
+          [
+            "0x5fba79f5",
+            67
+          ],
+          [
+            "0x12aa3caf",
+            48
+          ],
+          [
+            "0x63e32091",
+            35
+          ],
+          [
+            "0x",
+            34
+          ]
+        ]
+      },
+      {
+        "period": "2023-09",
+        "n": 770,
+        "phishing": 481,
+        "benign": 289,
+        "phishing_rate": 0.6246753246753247,
+        "top_phishing_categories": [
+          [
+            "Benign KOL",
+            262
+          ],
+          [
+            "Airdrop function",
+            145
+          ],
+          [
+            "Approve",
+            116
+          ],
+          [
+            "Free buy order",
+            71
+          ],
+          [
+            "Permit",
+            50
+          ],
+          [
+            "SetApproveForAll",
+            44
+          ],
+          [
+            "Benign Developer",
+            27
+          ],
+          [
+            "Zero value transfer",
+            22
+          ]
+        ],
+        "top_methods": [
+          [
+            "0x23b872dd",
+            157
+          ],
+          [
+            "0x3158952e",
+            88
+          ],
+          [
+            "0x",
+            87
+          ],
+          [
+            "0xb3be57f8",
+            51
+          ],
+          [
+            "0xa9059cbb",
+            42
+          ],
+          [
+            "0x42842e0e",
+            39
+          ],
+          [
+            "0x095ea7b3",
+            34
+          ],
+          [
+            "0x0c7ef932",
+            24
+          ]
+        ]
+      },
+      {
+        "period": "2023-10",
+        "n": 229,
+        "phishing": 54,
+        "benign": 175,
+        "phishing_rate": 0.23580786026200873,
+        "top_phishing_categories": [
+          [
+            "Benign KOL",
+            152
+          ],
+          [
+            "Benign Developer",
+            23
+          ],
+          [
+            "Proxy upgrade",
+            20
+          ],
+          [
+            "Zero value transfer",
+            13
+          ],
+          [
+            "Fake token transfer",
+            9
+          ],
+          [
+            "Permit",
+            5
+          ],
+          [
+            "Approve",
+            3
+          ],
+          [
+            "Bulk transfer",
+            3
+          ]
+        ],
+        "top_methods": [
+          [
+            "0xa9059cbb",
+            37
+          ],
+          [
+            "0x3659cfe6",
+            20
+          ],
+          [
+            "0x095ea7b3",
+            18
+          ],
+          [
+            "0xd0e30db0",
+            9
+          ],
+          [
+            "0x23b872dd",
+            8
+          ],
+          [
+            "0x",
+            8
+          ],
+          [
+            "0x76310000",
+            7
+          ],
+          [
+            "0x5a53b4ad",
+            6
+          ]
+        ]
+      },
+      {
+        "period": "2023-11",
+        "n": 492,
+        "phishing": 5,
+        "benign": 487,
+        "phishing_rate": 0.01016260162601626,
+        "top_phishing_categories": [
+          [
+            "Benign KOL",
+            451
+          ],
+          [
+            "Benign Developer",
+            36
+          ],
+          [
+            "Airdrop function",
+            3
+          ],
+          [
+            "Approve",
+            2
+          ]
+        ],
+        "top_methods": [
+          [
+            "0x095ea7b3",
+            72
+          ],
+          [
+            "0xa9059cbb",
+            35
+          ],
+          [
+            "0x",
+            23
+          ],
+          [
+            "0x12aa3caf",
+            23
+          ],
+          [
+            "0x54e3f31b",
+            17
+          ],
+          [
+            "0xf6326fb3",
+            12
+          ],
+          [
+            "0x3593564c",
+            12
+          ],
+          [
+            "0xa94e78ef",
+            11
+          ]
+        ]
+      },
+      {
+        "period": "2023-12",
+        "n": 590,
+        "phishing": 2,
+        "benign": 588,
+        "phishing_rate": 0.003389830508474576,
+        "top_phishing_categories": [
+          [
+            "Benign KOL",
+            531
+          ],
+          [
+            "Benign Developer",
+            57
+          ],
+          [
+            "Wallet function",
+            2
+          ]
+        ],
+        "top_methods": [
+          [
+            "0x095ea7b3",
+            106
+          ],
+          [
+            "0x54e3f31b",
+            37
+          ],
+          [
+            "0x12aa3caf",
+            34
+          ],
+          [
+            "0xa9059cbb",
+            30
+          ],
+          [
+            "0x",
+            29
+          ],
+          [
+            "0xe449022e",
+            16
+          ],
+          [
+            "0x449b2cf6",
+            14
+          ],
+          [
+            "0x8b886bf2",
+            13
+          ]
+        ]
+      },
+      {
+        "period": "2024-01",
+        "n": 531,
+        "phishing": 4,
+        "benign": 527,
+        "phishing_rate": 0.007532956685499058,
+        "top_phishing_categories": [
+          [
+            "Benign KOL",
+            455
+          ],
+          [
+            "Benign Developer",
+            72
+          ],
+          [
+            "Permit",
+            1
+          ],
+          [
+            "Fake token transfer",
+            1
+          ],
+          [
+            "Airdrop function",
+            1
+          ],
+          [
+            "Wallet function",
+            1
+          ]
+        ],
+        "top_methods": [
+          [
+            "0x095ea7b3",
+            112
+          ],
+          [
+            "0x",
+            21
+          ],
+          [
+            "0xa9059cbb",
+            20
+          ],
+          [
+            "0x12aa3caf",
+            9
+          ],
+          [
+            "0xb1a1a882",
+            9
+          ],
+          [
+            "0xd0e30db0",
+            7
+          ],
+          [
+            "0x5c9c18e2",
+            7
+          ],
+          [
+            "0x3593564c",
+            7
+          ]
+        ]
+      },
+      {
+        "period": "2024-02",
+        "n": 778,
+        "phishing": 0,
+        "benign": 778,
+        "phishing_rate": 0.0,
+        "top_phishing_categories": [
+          [
+            "Benign KOL",
+            443
+          ],
+          [
+            "Random Block Benign",
+            298
+          ],
+          [
+            "Benign Developer",
+            37
+          ]
+        ],
+        "top_methods": [
+          [
+            "0x095ea7b3",
+            129
+          ],
+          [
+            "0x",
+            128
+          ],
+          [
+            "0xa9059cbb",
+            82
+          ],
+          [
+            "0x3593564c",
+            31
+          ],
+          [
+            "0xa415bcad",
+            19
+          ],
+          [
+            "0x474cf53d",
+            17
+          ],
+          [
+            "0x83bd37f9",
+            11
+          ],
+          [
+            "0xd0e30db0",
+            10
+          ]
+        ]
+      },
+      {
+        "period": "2024-03",
+        "n": 164,
+        "phishing": 0,
+        "benign": 164,
+        "phishing_rate": 0.0,
+        "top_phishing_categories": [
+          [
+            "Benign Developer",
+            85
+          ],
+          [
+            "Benign KOL",
+            79
+          ]
+        ],
+        "top_methods": [
+          [
+            "0x095ea7b3",
+            26
+          ],
+          [
+            "0x",
+            12
+          ],
+          [
+            "0xa9059cbb",
+            11
+          ],
+          [
+            "0x3593564c",
+            11
+          ],
+          [
+            "0x8c1358a2",
+            7
+          ],
+          [
+            "0xba1f77e8",
+            5
+          ],
+          [
+            "0x7d40583d",
+            4
+          ],
+          [
+            "0x3b24c2bf",
+            4
+          ]
+        ]
+      },
+      {
+        "period": "2024-04",
+        "n": 280,
+        "phishing": 0,
+        "benign": 280,
+        "phishing_rate": 0.0,
+        "top_phishing_categories": [
+          [
+            "Random Block Benign",
+            142
+          ],
+          [
+            "Benign Developer",
+            138
+          ]
+        ],
+        "top_methods": [
+          [
+            "0x",
+            50
+          ],
+          [
+            "0xa9059cbb",
+            22
+          ],
+          [
+            "0x3593564c",
+            16
+          ],
+          [
+            "0x7d40583d",
+            15
+          ],
+          [
+            "0x095ea7b3",
+            13
+          ],
+          [
+            "0x67aff484",
+            5
+          ],
+          [
+            "0x6dbd9f90",
+            5
+          ],
+          [
+            "0x92d59d3f",
+            5
+          ]
+        ]
+      },
+      {
+        "period": "2024-05",
+        "n": 16,
+        "phishing": 0,
+        "benign": 16,
+        "phishing_rate": 0.0,
+        "top_phishing_categories": [
+          [
+            "Benign Developer",
+            16
+          ]
+        ],
+        "top_methods": [
+          [
+            "0x76310000",
+            2
+          ],
+          [
+            "0xf2fde38b",
+            2
+          ],
+          [
+            "0x6dbd9f90",
+            2
+          ],
+          [
+            "0x54e3f31b",
+            1
+          ],
+          [
+            "0xc4d66de8",
+            1
+          ],
+          [
+            "0xb5e98b3b",
+            1
+          ],
+          [
+            "0x3bec1bfc",
+            1
+          ],
+          [
+            "0x69328dec",
+            1
+          ]
+        ]
+      },
+      {
+        "period": "2024-06",
+        "n": 90,
+        "phishing": 0,
+        "benign": 90,
+        "phishing_rate": 0.0,
+        "top_phishing_categories": [
+          [
+            "Benign Developer",
+            90
+          ]
+        ],
+        "top_methods": [
+          [
+            "0x839799fd",
+            23
+          ],
+          [
+            "0x67aff484",
+            18
+          ],
+          [
+            "0x7d40583d",
+            7
+          ],
+          [
+            "0xb5e98b3b",
+            7
+          ],
+          [
+            "0x21801a99",
+            6
+          ],
+          [
+            "0x095ea7b3",
+            5
+          ],
+          [
+            "0x",
+            4
+          ],
+          [
+            "0x0efe6a8b",
+            2
+          ]
+        ]
+      },
+      {
+        "period": "2024-07",
+        "n": 152,
+        "phishing": 0,
+        "benign": 152,
+        "phishing_rate": 0.0,
+        "top_phishing_categories": [
+          [
+            "Benign Developer",
+            152
+          ]
+        ],
+        "top_methods": [
+          [
+            "0x095ea7b3",
+            23
+          ],
+          [
+            "0x839799fd",
+            23
+          ],
+          [
+            "0x339a5572",
+            12
+          ],
+          [
+            "0x",
+            10
+          ],
+          [
+            "0x79a96da1",
+            9
+          ],
+          [
+            "0xa9059cbb",
+            8
+          ],
+          [
+            "0x67aff484",
+            6
+          ],
+          [
+            "0xf2fde38b",
+            6
+          ]
+        ]
+      }
+    ]
+  },
+  "windows": [
+    {
+      "name": "window_1",
+      "label_counts": {
+        "train": {
+          "0": 2286,
+          "1": 1173
+        },
+        "valid": {
+          "1": 861,
+          "0": 523
+        },
+        "test": {
+          "1": 542,
+          "0": 496
+        },
+        "balanced_test": {
+          "1": 496,
+          "0": 496
+        }
+      },
+      "drift": [
+        {
+          "feature_index": 0,
+          "train_mean": 0.9427797794342041,
+          "test_mean": 1.0812301635742188,
+          "mean_difference": 0.13845038414001465,
+          "standardized_difference": 0.20527726411819458,
+          "train_std": 0.5732668042182922,
+          "test_std": 0.7756441831588745
+        },
+        {
+          "feature_index": 1,
+          "train_mean": 0.7717251181602478,
+          "test_mean": 0.9173226356506348,
+          "mean_difference": 0.14559751749038696,
+          "standardized_difference": 0.31557196378707886,
+          "train_std": 0.33283695578575134,
+          "test_std": 0.5899162292480469
+        },
+        {
+          "feature_index": 2,
+          "train_mean": 0.6340126395225525,
+          "test_mean": 0.5993813872337341,
+          "mean_difference": -0.03463125228881836,
+          "standardized_difference": -0.07130900770425797,
+          "train_std": 0.48140791058540344,
+          "test_std": 0.4898930788040161
+        },
+        {
+          "feature_index": 3,
+          "train_mean": 0.36483094096183777,
+          "test_mean": 0.4006185829639435,
+          "mean_difference": 0.03578764200210571,
+          "standardized_difference": 0.07371466606855392,
+          "train_std": 0.4810844659805298,
+          "test_std": 0.4898931086063385
+        },
+        {
+          "feature_index": 4,
+          "train_mean": 19.50336265563965,
+          "test_mean": 86.97364044189453,
+          "mean_difference": 67.47027778625488,
+          "standardized_difference": 0.3645837604999542,
+          "train_std": 98.77452850341797,
+          "test_std": 271.3476867675781
+        },
+        {
+          "feature_index": 5,
+          "train_mean": 0.7062202095985413,
+          "test_mean": 0.5715774297714233,
+          "mean_difference": -0.13464277982711792,
+          "standardized_difference": -0.4030708074569702,
+          "train_std": 0.3517330586910248,
+          "test_std": 0.3163519501686096
+        },
+        {
+          "feature_index": 6,
+          "train_mean": 0.05593999847769737,
+          "test_mean": 0.05200345441699028,
+          "mean_difference": -0.003936544060707092,
+          "standardized_difference": -0.01815861277282238,
+          "train_std": 0.22619414329528809,
+          "test_std": 0.2073790729045868
+        },
+        {
+          "feature_index": 7,
+          "train_mean": 0.07816745340824127,
+          "test_mean": 0.09685248136520386,
+          "mean_difference": 0.018685027956962585,
+          "standardized_difference": 0.06915219873189926,
+          "train_std": 0.2607209086418152,
+          "test_std": 0.27968212962150574
+        },
+        {
+          "feature_index": 8,
+          "train_mean": 0.03813667595386505,
+          "test_mean": 0.03692540153861046,
+          "mean_difference": -0.001211274415254593,
+          "standardized_difference": -0.00671054981648922,
+          "train_std": 0.18711797893047333,
+          "test_std": 0.17388804256916046
+        },
+        {
+          "feature_index": 9,
+          "train_mean": 0.004596319980919361,
+          "test_mean": 0.01494509819895029,
+          "mean_difference": 0.01034877821803093,
+          "standardized_difference": 0.12392090260982513,
+          "train_std": 0.06038704514503479,
+          "test_std": 0.10663527250289917
+        },
+        {
+          "feature_index": 10,
+          "train_mean": 0.1856345385313034,
+          "test_mean": 0.01541425846517086,
+          "mean_difference": -0.17022028006613255,
+          "standardized_difference": -0.6624403595924377,
+          "train_std": 0.3907252252101898,
+          "test_std": 0.12319357693195343
+        },
+        {
+          "feature_index": 11,
+          "train_mean": 0.04201875254511833,
+          "test_mean": 0.27626553177833557,
+          "mean_difference": 0.23424677923321724,
+          "standardized_difference": 0.7169434428215027,
+          "train_std": 0.2009093314409256,
+          "test_std": 0.4525502026081085
+        },
+        {
+          "feature_index": 12,
+          "train_mean": 0.8319128155708313,
+          "test_mean": 0.7856370210647583,
+          "mean_difference": -0.046275794506073,
+          "standardized_difference": -0.14677301049232483,
+          "train_std": 0.29742205142974854,
+          "test_std": 0.3331543505191803
+        }
+      ],
+      "models": {
+        "logistic_regression": {
+          "natural_test": {
+            "n": 1038,
+            "positive": 542,
+            "positive_rate": 0.5221579961464354,
+            "threshold": 0.5,
+            "roc_auc": 0.9478428907272944,
+            "pr_auc": 0.9564997089336236,
+            "precision": 0.9973118279569892,
+            "recall": 0.6845018450184502,
+            "f1": 0.811816192560175
+          },
+          "balanced_test": {
+            "n": 992,
+            "positive": 496,
+            "positive_rate": 0.5,
+            "threshold": 0.5,
+            "roc_auc": 0.9488590172996878,
+            "pr_auc": 0.9547106034232663,
+            "precision": 0.9970845481049563,
+            "recall": 0.6895161290322581,
+            "f1": 0.8152562574493445
+          },
+          "thresholds": {
+            "0.01": {
+              "threshold": 0.3021205961704254,
+              "valid": {
+                "n": 1384,
+                "positive": 861,
+                "positive_rate": 0.6221098265895953,
+                "threshold": 0.3021205961704254,
+                "roc_auc": 0.9409764092177935,
+                "pr_auc": 0.9568306672528504,
+                "precision": 0.9952904238618524,
+                "recall": 0.7363530778164924,
+                "f1": 0.8464619492656876
+              },
+              "natural_test": {
+                "n": 1038,
+                "positive": 542,
+                "positive_rate": 0.5221579961464354,
+                "threshold": 0.3021205961704254,
+                "roc_auc": 0.9478428907272944,
+                "pr_auc": 0.9564997089336236,
+                "precision": 0.9894179894179894,
+                "recall": 0.6900369003690037,
+                "f1": 0.8130434782608695
+              },
+              "balanced_test": {
+                "n": 992,
+                "positive": 496,
+                "positive_rate": 0.5,
+                "threshold": 0.3021205961704254,
+                "roc_auc": 0.9488590172996878,
+                "pr_auc": 0.9547106034232663,
+                "precision": 0.9885386819484241,
+                "recall": 0.6955645161290323,
+                "f1": 0.8165680473372781
+              }
+            },
+            "0.05": {
+              "threshold": 0.3021205961704254,
+              "valid": {
+                "n": 1384,
+                "positive": 861,
+                "positive_rate": 0.6221098265895953,
+                "threshold": 0.3021205961704254,
+                "roc_auc": 0.9409764092177935,
+                "pr_auc": 0.9568306672528504,
+                "precision": 0.9952904238618524,
+                "recall": 0.7363530778164924,
+                "f1": 0.8464619492656876
+              },
+              "natural_test": {
+                "n": 1038,
+                "positive": 542,
+                "positive_rate": 0.5221579961464354,
+                "threshold": 0.3021205961704254,
+                "roc_auc": 0.9478428907272944,
+                "pr_auc": 0.9564997089336236,
+                "precision": 0.9894179894179894,
+                "recall": 0.6900369003690037,
+                "f1": 0.8130434782608695
+              },
+              "balanced_test": {
+                "n": 992,
+                "positive": 496,
+                "positive_rate": 0.5,
+                "threshold": 0.3021205961704254,
+                "roc_auc": 0.9488590172996878,
+                "pr_auc": 0.9547106034232663,
+                "precision": 0.9885386819484241,
+                "recall": 0.6955645161290323,
+                "f1": 0.8165680473372781
+              }
+            }
+          }
+        },
+        "random_forest": {
+          "natural_test": {
+            "n": 1038,
+            "positive": 542,
+            "positive_rate": 0.5221579961464354,
+            "threshold": 0.5,
+            "roc_auc": 0.9623128942982978,
+            "pr_auc": 0.9629337540523476,
+            "precision": 0.9866666666666667,
+            "recall": 0.6826568265682657,
+            "f1": 0.806979280261723
+          },
+          "balanced_test": {
+            "n": 992,
+            "positive": 496,
+            "positive_rate": 0.5,
+            "threshold": 0.5,
+            "roc_auc": 0.9620370219823102,
+            "pr_auc": 0.9606719096571552,
+            "precision": 0.9855072463768116,
+            "recall": 0.6854838709677419,
+            "f1": 0.8085612366230678
+          },
+          "thresholds": {
+            "0.01": {
+              "threshold": 0.5639496621362025,
+              "valid": {
+                "n": 1384,
+                "positive": 861,
+                "positive_rate": 0.6221098265895953,
+                "threshold": 0.5639496621362025,
+                "roc_auc": 0.9445417863083302,
+                "pr_auc": 0.9581880532568929,
+                "precision": 0.9937304075235109,
+                "recall": 0.7363530778164924,
+                "f1": 0.8458972648432288
+              },
+              "natural_test": {
+                "n": 1038,
+                "positive": 542,
+                "positive_rate": 0.5221579961464354,
+                "threshold": 0.5639496621362025,
+                "roc_auc": 0.9623128942982978,
+                "pr_auc": 0.9629337540523476,
+                "precision": 0.9918918918918919,
+                "recall": 0.6771217712177122,
+                "f1": 0.8048245614035088
+              },
+              "balanced_test": {
+                "n": 992,
+                "positive": 496,
+                "positive_rate": 0.5,
+                "threshold": 0.5639496621362025,
+                "roc_auc": 0.9620370219823102,
+                "pr_auc": 0.9606719096571552,
+                "precision": 0.9912023460410557,
+                "recall": 0.6814516129032258,
+                "f1": 0.8076463560334528
+              }
+            },
+            "0.05": {
+              "threshold": 0.33287569037331416,
+              "valid": {
+                "n": 1384,
+                "positive": 861,
+                "positive_rate": 0.6221098265895953,
+                "threshold": 0.33287569037331416,
+                "roc_auc": 0.9445417863083302,
+                "pr_auc": 0.9581880532568929,
+                "precision": 0.9877112135176651,
+                "recall": 0.7468060394889663,
+                "f1": 0.8505291005291006
+              },
+              "natural_test": {
+                "n": 1038,
+                "positive": 542,
+                "positive_rate": 0.5221579961464354,
+                "threshold": 0.33287569037331416,
+                "roc_auc": 0.9623128942982978,
+                "pr_auc": 0.9629337540523476,
+                "precision": 0.9872122762148338,
+                "recall": 0.7121771217712177,
+                "f1": 0.827438370846731
+              },
+              "balanced_test": {
+                "n": 992,
+                "positive": 496,
+                "positive_rate": 0.5,
+                "threshold": 0.33287569037331416,
+                "roc_auc": 0.9620370219823102,
+                "pr_auc": 0.9606719096571552,
+                "precision": 0.9861111111111112,
+                "recall": 0.7157258064516129,
+                "f1": 0.8294392523364486
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "window_2",
+      "label_counts": {
+        "train": {
+          "0": 1689,
+          "1": 1771
+        },
+        "valid": {
+          "1": 771,
+          "0": 267
+        },
+        "test": {
+          "0": 976,
+          "1": 62
+        },
+        "balanced_test": {
+          "1": 62,
+          "0": 62
+        }
+      },
+      "drift": [
+        {
+          "feature_index": 0,
+          "train_mean": 0.9263413548469543,
+          "test_mean": 1.2488155364990234,
+          "mean_difference": 0.3224741816520691,
+          "standardized_difference": 0.4363326132297516,
+          "train_std": 0.566374659538269,
+          "test_std": 0.9117371439933777
+        },
+        {
+          "feature_index": 1,
+          "train_mean": 0.7920640110969543,
+          "test_mean": 1.033348560333252,
+          "mean_difference": 0.2412845492362976,
+          "standardized_difference": 0.4534696638584137,
+          "train_std": 0.37975937128067017,
+          "test_std": 0.6844112277030945
+        },
+        {
+          "feature_index": 2,
+          "train_mean": 0.5666810274124146,
+          "test_mean": 0.7249389290809631,
+          "mean_difference": 0.15825790166854858,
+          "standardized_difference": 0.336605042219162,
+          "train_std": 0.4954547584056854,
+          "test_std": 0.44486337900161743
+        },
+        {
+          "feature_index": 3,
+          "train_mean": 0.4310067892074585,
+          "test_mean": 0.2750610411167145,
+          "mean_difference": -0.15594574809074402,
+          "standardized_difference": -0.3317989408969879,
+          "train_std": 0.4951380789279938,
+          "test_std": 0.44486337900161743
+        },
+        {
+          "feature_index": 4,
+          "train_mean": 29.28693962097168,
+          "test_mean": 146.16302490234375,
+          "mean_difference": 116.87608528137207,
+          "standardized_difference": 0.49200505018234253,
+          "train_std": 135.1190185546875,
+          "test_std": 339.9821472167969
+        },
+        {
+          "feature_index": 5,
+          "train_mean": 0.6784510016441345,
+          "test_mean": 0.512017548084259,
+          "mean_difference": -0.1664334535598755,
+          "standardized_difference": -0.48493319749832153,
+          "train_std": 0.32501575350761414,
+          "test_std": 0.3614022731781006
+        },
+        {
+          "feature_index": 6,
+          "train_mean": 0.09480343014001846,
+          "test_mean": 0.02168111875653267,
+          "mean_difference": -0.0731223113834858,
+          "standardized_difference": -0.3665522336959839,
+          "train_std": 0.2865784466266632,
+          "test_std": 0.11239500343799591
+        },
+        {
+          "feature_index": 7,
+          "train_mean": 0.06402668356895447,
+          "test_mean": 0.15302540361881256,
+          "mean_difference": 0.0889987200498581,
+          "standardized_difference": 0.31472697854042053,
+          "train_std": 0.23513822257518768,
+          "test_std": 0.3304232060909271
+        },
+        {
+          "feature_index": 8,
+          "train_mean": 0.06597740203142166,
+          "test_mean": 0.017130060121417046,
+          "mean_difference": -0.048847341910004616,
+          "standardized_difference": -0.2871344983577728,
+          "train_std": 0.24094022810459137,
+          "test_std": 0.09929989278316498
+        },
+        {
+          "feature_index": 9,
+          "train_mean": 0.010702704079449177,
+          "test_mean": 0.0037510499823838472,
+          "mean_difference": -0.0069516540970653296,
+          "standardized_difference": -0.10417583584785461,
+          "train_std": 0.09266888350248337,
+          "test_std": 0.04079113528132439
+        },
+        {
+          "feature_index": 10,
+          "train_mean": 0.1961820423603058,
+          "test_mean": 0.003853564616292715,
+          "mean_difference": -0.19232847774401307,
+          "standardized_difference": -0.8338607549667358,
+          "train_std": 0.39933905005455017,
+          "test_std": 0.06195736303925514
+        },
+        {
+          "feature_index": 11,
+          "train_mean": 0.10616844892501831,
+          "test_mean": 0.005780346691608429,
+          "mean_difference": -0.10038810223340988,
+          "standardized_difference": -0.5224783420562744,
+          "train_std": 0.3084681034088135,
+          "test_std": 0.07580853998661041
+        },
+        {
+          "feature_index": 12,
+          "train_mean": 0.8430708050727844,
+          "test_mean": 0.7254850268363953,
+          "mean_difference": -0.11758577823638916,
+          "standardized_difference": -0.3589664399623871,
+          "train_std": 0.2876013219356537,
+          "test_std": 0.3675338923931122
+        }
+      ],
+      "models": {
+        "logistic_regression": {
+          "natural_test": {
+            "n": 1038,
+            "positive": 62,
+            "positive_rate": 0.05973025048169557,
+            "threshold": 0.5,
+            "roc_auc": 0.8547230301427815,
+            "pr_auc": 0.781852081015107,
+            "precision": 0.9038461538461539,
+            "recall": 0.7580645161290323,
+            "f1": 0.8245614035087719
+          },
+          "balanced_test": {
+            "n": 124,
+            "positive": 62,
+            "positive_rate": 0.5,
+            "threshold": 0.5,
+            "roc_auc": 0.8517169614984392,
+            "pr_auc": 0.9048058253582145,
+            "precision": 0.9791666666666666,
+            "recall": 0.7580645161290323,
+            "f1": 0.8545454545454545
+          },
+          "thresholds": {
+            "0.01": {
+              "threshold": 0.31208112835884094,
+              "valid": {
+                "n": 1038,
+                "positive": 771,
+                "positive_rate": 0.7427745664739884,
+                "threshold": 0.31208112835884094,
+                "roc_auc": 0.961677280830868,
+                "pr_auc": 0.9832678027405636,
+                "precision": 0.9971223021582734,
+                "recall": 0.8988326848249028,
+                "f1": 0.9454297407912687
+              },
+              "natural_test": {
+                "n": 1038,
+                "positive": 62,
+                "positive_rate": 0.05973025048169557,
+                "threshold": 0.31208112835884094,
+                "roc_auc": 0.8547230301427815,
+                "pr_auc": 0.781852081015107,
+                "precision": 0.18846153846153846,
+                "recall": 0.7903225806451613,
+                "f1": 0.30434782608695654
+              },
+              "balanced_test": {
+                "n": 124,
+                "positive": 62,
+                "positive_rate": 0.5,
+                "threshold": 0.31208112835884094,
+                "roc_auc": 0.8517169614984392,
+                "pr_auc": 0.9048058253582145,
+                "precision": 0.7538461538461538,
+                "recall": 0.7903225806451613,
+                "f1": 0.7716535433070866
+              }
+            },
+            "0.05": {
+              "threshold": 0.20523126423358917,
+              "valid": {
+                "n": 1038,
+                "positive": 771,
+                "positive_rate": 0.7427745664739884,
+                "threshold": 0.20523126423358917,
+                "roc_auc": 0.961677280830868,
+                "pr_auc": 0.9832678027405636,
+                "precision": 0.9830028328611898,
+                "recall": 0.9001297016861219,
+                "f1": 0.939742721733243
+              },
+              "natural_test": {
+                "n": 1038,
+                "positive": 62,
+                "positive_rate": 0.05973025048169557,
+                "threshold": 0.20523126423358917,
+                "roc_auc": 0.8547230301427815,
+                "pr_auc": 0.781852081015107,
+                "precision": 0.17687074829931973,
+                "recall": 0.8387096774193549,
+                "f1": 0.29213483146067415
+              },
+              "balanced_test": {
+                "n": 124,
+                "positive": 62,
+                "positive_rate": 0.5,
+                "threshold": 0.20523126423358917,
+                "roc_auc": 0.8517169614984392,
+                "pr_auc": 0.9048058253582145,
+                "precision": 0.7428571428571429,
+                "recall": 0.8387096774193549,
+                "f1": 0.7878787878787878
+              }
+            }
+          }
+        },
+        "random_forest": {
+          "natural_test": {
+            "n": 1038,
+            "positive": 62,
+            "positive_rate": 0.05973025048169557,
+            "threshold": 0.5,
+            "roc_auc": 0.9501090692755156,
+            "pr_auc": 0.86224196130714,
+            "precision": 0.2054263565891473,
+            "recall": 0.8548387096774194,
+            "f1": 0.33125
+          },
+          "balanced_test": {
+            "n": 124,
+            "positive": 62,
+            "positive_rate": 0.5,
+            "threshold": 0.5,
+            "roc_auc": 0.9428980228928199,
+            "pr_auc": 0.9548326645164807,
+            "precision": 0.7571428571428571,
+            "recall": 0.8548387096774194,
+            "f1": 0.803030303030303
+          },
+          "thresholds": {
+            "0.01": {
+              "threshold": 0.480226042990626,
+              "valid": {
+                "n": 1038,
+                "positive": 771,
+                "positive_rate": 0.7427745664739884,
+                "threshold": 0.480226042990626,
+                "roc_auc": 0.966576312683076,
+                "pr_auc": 0.9845410287093064,
+                "precision": 0.9985569985569985,
+                "recall": 0.8975356679636836,
+                "f1": 0.9453551912568307
+              },
+              "natural_test": {
+                "n": 1038,
+                "positive": 62,
+                "positive_rate": 0.05973025048169557,
+                "threshold": 0.480226042990626,
+                "roc_auc": 0.9501090692755156,
+                "pr_auc": 0.86224196130714,
+                "precision": 0.20384615384615384,
+                "recall": 0.8548387096774194,
+                "f1": 0.32919254658385094
+              },
+              "balanced_test": {
+                "n": 124,
+                "positive": 62,
+                "positive_rate": 0.5,
+                "threshold": 0.480226042990626,
+                "roc_auc": 0.9428980228928199,
+                "pr_auc": 0.9548326645164807,
+                "precision": 0.7571428571428571,
+                "recall": 0.8548387096774194,
+                "f1": 0.803030303030303
+              }
+            },
+            "0.05": {
+              "threshold": 0.17852815316567716,
+              "valid": {
+                "n": 1038,
+                "positive": 771,
+                "positive_rate": 0.7427745664739884,
+                "threshold": 0.17852815316567716,
+                "roc_auc": 0.966576312683076,
+                "pr_auc": 0.9845410287093064,
+                "precision": 0.9887005649717514,
+                "recall": 0.9079118028534371,
+                "f1": 0.9465855307640297
+              },
+              "natural_test": {
+                "n": 1038,
+                "positive": 62,
+                "positive_rate": 0.05973025048169557,
+                "threshold": 0.17852815316567716,
+                "roc_auc": 0.9501090692755156,
+                "pr_auc": 0.86224196130714,
+                "precision": 0.1892744479495268,
+                "recall": 0.967741935483871,
+                "f1": 0.316622691292876
+              },
+              "balanced_test": {
+                "n": 124,
+                "positive": 62,
+                "positive_rate": 0.5,
+                "threshold": 0.17852815316567716,
+                "roc_auc": 0.9428980228928199,
+                "pr_auc": 0.9548326645164807,
+                "precision": 0.75,
+                "recall": 0.967741935483871,
+                "f1": 0.8450704225352113
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

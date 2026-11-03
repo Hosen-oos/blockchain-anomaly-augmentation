@@ -1,0 +1,16 @@
+{
+  "raw_rows": 18674,
+  "graphs": 6919,
+  "train": 4151,
+  "valid": 1384,
+  "test": 1384,
+  "train_phishing": 1585,
+  "candidates": 3170,
+  "accepted_candidates": 691,
+  "acceptance_rate": 0.21798107255520505,
+  "split_timestamps": {
+    "train_last": 1689858803,
+    "valid_last": 1699828127,
+    "test_last": 1722202379
+  }
+}
